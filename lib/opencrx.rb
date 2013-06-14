@@ -1,110 +1,87 @@
 require "opencrx/version"
-require 'rest_client'
+require 'httparty'
 require 'logger'
 require 'nokogiri'
 require 'builder'
+require 'active_support/inflector'
 
 module Opencrx
 
-  def self.agent
-    @@agent
+  @@session = nil
+
+  def self.connect(base_url, user, password)
+    self.session = Opencrx::Session.new(base_url, user, password)
   end
 
-  def self.agent=(object)
-    @@agent = object
+  def self.session
+    @@session
   end
 
-  class Agent
-    attr_reader :base_url
+  def self.session=(object)
+    @@session = object
+  end
 
-    def initialize(url)
-      @base_url = url
-      RestClient.log = Logger.new STDOUT
-      Opencrx::agent = self
+  class Session
+    include HTTParty
+
+    #debug_output
+    headers 'Accept' => 'text/xml', 'Content-Type' => 'text/xml'
+    format :xml
+
+    def initialize(base_url, user, password)
+      self.class.base_uri(base_url)
+      self.class.basic_auth(user, password)
     end
 
-    def contacts
-      xtra = {params: {position: 43-24, xsize: 43, xqueryType: 'org:opencrx:kernel:account1:Contact'}}
-      xml = parse RestClient.get(contacts_url, params.merge(xtra))
-      xml.search("//org.openmdx.kernel.ResultSet").first.children.map { |n| n.name }
-    end
-
-    def contact(id)
-      response = RestClient.get(contacts_url + "/#{id}", params)
-      parse response
-    end
-
-    def parse(response)
-      Nokogiri.XML(response)
-    end
-
-    def contacts_url
-      base_url + "/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account"
-    end
-
-    def post(suffix, xml)
-      parse RestClient.post(full_url(suffix), xml, params.merge(content_type: :xml)) do |response, request, result, &block|
-        case response.code
-          when 200
-            response
-          when 400
-            puts "FAILED"
-            ap parse(response)
-          else
-            response.return!(request, result, &block)
-        end
-      end
-    end
-
-    def put(suffix, xml)
-      parse RestClient.put(full_url(suffix), xml, params.merge(content_type: :xml)) do |response, request, result, &block|
-        case response.code
-          when 200
-            response
-          when 400
-            puts "FAILED"
-            ap parse(response)
-          else
-            response.return!(request, result, &block)
-        end
-      end
-
-    end
-
-    def get(suffix)
-      parse RestClient.get(full_url(suffix), params.merge(content_type: :xml)) do |response, request, result, &block|
-        case response.code
-          when 200
-            response
-          when 400
-            puts "FAILED"
-            ap parse(response)
-          else
-            response.return!(request, result, &block)
-        end
-      end
-    end
-
-    def full_url(suffix)
-      base_url + suffix
-    end
-
-    def params
-      {accept: :xml, content_type: :xml}
+    def get(suffix, options = {})
+      self.class.get(suffix, options)
     end
   end
 
-  class Contact
-    attr_reader :agent
-
+  module Account
     SUFFIX = "/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account"
+    KEY = Regexp.new('^org.opencrx.kernel.account1.(.*)$')
+    RESULTSET = 'org.openmdx.kernel.ResultSet'
 
-    def initialize(agent)
-      @agent = agent
+    def self.get(id)
+      response = session.get(SUFFIX + "/#{id}")
+      build_record(response)
     end
 
-    def get(id)
-      agent.get(SUFFIX + "/#{id}")
+    def self.build_record(hash)
+      puts "Expected a single key, got [#{hash.keys}]" unless hash.keys.length == 1
+      key = hash.keys.first
+      key.match(KEY)
+      klass_name = $1
+      if (klass = ActiveSupport::Inflector.safe_constantize("Opencrx::Account::#{klass_name}"))
+        klass.new(hash)
+      else
+        puts "Dont understand record type [#{klass_name}]"
+      end
+    end
+
+    def self.failure(response)
+      ap response.request
+      ap response.response
+      ap response.parsed_response
+      nil
+    end
+
+    def self.query(params = {})
+      response = session.get(SUFFIX, query: params)
+      key = response.keys.first
+      if key == RESULTSET
+        parse_resultset(response[key])
+      else
+        failure(response)
+      end
+    end
+
+    def self.parse_resultset(hash)
+      hash.map do |key, value|
+        next if %w(href hasMore).include? key
+        build_record(key => value)
+      end.compact
     end
 
     def updateX
@@ -124,5 +101,28 @@ module Opencrx
       end
       agent.post(SUFFIX, xml)
     end
+
+    def self.session
+      Opencrx::session
+    end
+
+    class AccountRecord < SimpleDelegator
+      attr_reader :key
+
+      def initialize(attributes)
+        @key = attributes.keys.first
+        super attributes[@key]
+      end
+    end
+
+    class Contact < AccountRecord;
+    end
+    class Group < AccountRecord;
+    end
+    class UnspecifiedAccount < AccountRecord;
+    end
+    class LegalEntity < AccountRecord;
+    end
   end
+
 end
