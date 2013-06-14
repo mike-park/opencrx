@@ -8,17 +8,11 @@ describe Opencrx do
   end
 
   context "Clients" do
-    it "should login" do
-      ap agent.contacts
-      #ap agent.contact(".kMZjB3HEd6deJeK7BLpbw")
-    end
-
-    it "should updateX" do
-      ap Opencrx::Contact.new(agent).updateX
-    end
-
     it "should create" do
-      ap Opencrx::Contact.new(agent).save
+      lastName = Time.now.to_s
+      contact = Opencrx::Account::Contact.new(lastName: lastName).save
+      expect(contact.class).to eq(Opencrx::Account::Contact)
+      expect(contact['lastName']).to eq(lastName)
     end
 
     it "should query" do
@@ -31,6 +25,15 @@ describe Opencrx do
       contact =  Opencrx::Account.get('bf8036d9-d487-11e2-95d2-dd9cebe030de')
       #ap contact
       expect(contact['lastName']).to eq('ruby code')
+    end
+
+    it "should get and convert back to xml and save" do
+      contact =  Opencrx::Account.get('bf8036d9-d487-11e2-95d2-dd9cebe030de')
+      contact['firstName'] = Time.now.to_s
+      #ap contact
+      #puts contact.xml
+      # really expect the date to show up
+      expect(contact.dup.save).to eq(contact)
     end
 
     it "should fail the get" do

@@ -1,9 +1,7 @@
 require "opencrx/version"
 require 'httparty'
-require 'logger'
-require 'nokogiri'
-require 'builder'
 require 'active_support/inflector'
+require 'active_support/core_ext'
 
 module Opencrx
 
@@ -33,8 +31,16 @@ module Opencrx
       self.class.basic_auth(user, password)
     end
 
-    def get(suffix, options = {})
-      self.class.get(suffix, options)
+    def get(url, options = {})
+      self.class.get(url, options)
+    end
+
+    def put(url, options = {})
+      self.class.put(url, options)
+    end
+
+    def post(url, options = {})
+      self.class.post(url, options)
     end
   end
 
@@ -45,7 +51,37 @@ module Opencrx
 
     def self.get(id)
       response = session.get(SUFFIX + "/#{id}")
+      #ap Nokogiri.XML(response.body)
       build_record(response)
+    end
+
+    def self.query(params = {})
+      response = session.get(SUFFIX, query: params)
+      key = response.keys.first
+      if key == RESULTSET
+        parse_resultset(response[key])
+      else
+        failure(response)
+      end
+    end
+
+    def self.post(xml)
+      build_record session.post(SUFFIX, body: xml)
+    end
+
+    def self.put(url, xml)
+      build_record session.put(url, body: xml)
+    end
+
+    def self.session
+      Opencrx::session
+    end
+
+    def self.parse_resultset(hash)
+      hash.map do |key, value|
+        next if %w(href hasMore).include? key
+        build_record(key => value)
+      end.compact
     end
 
     def self.build_record(hash)
@@ -67,61 +103,38 @@ module Opencrx
       nil
     end
 
-    def self.query(params = {})
-      response = session.get(SUFFIX, query: params)
-      key = response.keys.first
-      if key == RESULTSET
-        parse_resultset(response[key])
-      else
-        failure(response)
-      end
-    end
-
-    def self.parse_resultset(hash)
-      hash.map do |key, value|
-        next if %w(href hasMore).include? key
-        build_record(key => value)
-      end.compact
-    end
-
-    def updateX
-      builder = Builder::XmlMarkup.new
-      xml = '<?xml version="1.0" encoding="UTF-8"?>'
-      xml += builder.tag!('org.opencrx.kernel.account1.Contact') do |b|
-        b.salutation('ruby code')
-      end
-      agent.put(SUFFIX + "/-5uS0P6.Ed26mZW37tpC6Q", xml)
-    end
-
-    def save
-      builder = Builder::XmlMarkup.new
-      xml = '<?xml version="1.0" encoding="UTF-8"?>'
-      xml += builder.tag!('org.opencrx.kernel.account1.Contact') do |b|
-        b.lastName('ruby code')
-      end
-      agent.post(SUFFIX, xml)
-    end
-
-    def self.session
-      Opencrx::session
-    end
-
     class AccountRecord < SimpleDelegator
-      attr_reader :key
+      BASEKEY = "org.opencrx.kernel.account1"
 
       def initialize(attributes)
-        @key = attributes.keys.first
-        super attributes[@key]
+        attributes = attributes[key] if attributes.has_key? key
+        super attributes
+      end
+
+      def key
+        "#{BASEKEY}.#{ActiveSupport::Inflector.demodulize self.class}"
+      end
+
+      def save
+        if has_key?('href')
+          Opencrx::Account.put(fetch('href'), xml)
+        else
+          Opencrx::Account.post(xml)
+        end
+      end
+
+      def xml
+        __getobj__.except('owner', 'owningUser', 'owningGroup', 'href', 'version').to_xml(root: key)
       end
     end
 
-    class Contact < AccountRecord;
+    class Contact < AccountRecord
     end
-    class Group < AccountRecord;
+    class Group < AccountRecord
     end
-    class UnspecifiedAccount < AccountRecord;
+    class UnspecifiedAccount < AccountRecord
     end
-    class LegalEntity < AccountRecord;
+    class LegalEntity < AccountRecord
     end
   end
 
