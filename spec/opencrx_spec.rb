@@ -17,5 +17,10 @@ describe Opencrx do
     it "should create" do
       ap Opencrx::Contact.new(agent).save
     end
+
+    it "should get" do
+      ap Opencrx::Contact.new(agent).get('bf8036d9-d487-11e2-95d2-dd9cebe030de')
+    end
+
   end
 end

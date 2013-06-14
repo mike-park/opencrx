@@ -71,12 +71,26 @@ module Opencrx
 
     end
 
+    def get(suffix)
+      parse RestClient.get(full_url(suffix), params.merge(content_type: :xml)) do |response, request, result, &block|
+        case response.code
+          when 200
+            response
+          when 400
+            puts "FAILED"
+            ap parse(response)
+          else
+            response.return!(request, result, &block)
+        end
+      end
+    end
+
     def full_url(suffix)
       base_url + suffix
     end
 
     def params
-      {accept: :xml, Authorization: "Basic Z3Vlc3Q6Z3Vlc3Q="}
+      {accept: :xml, content_type: :xml}
     end
   end
 
@@ -87,6 +101,10 @@ module Opencrx
 
     def initialize(agent)
       @agent = agent
+    end
+
+    def get(id)
+      agent.get(SUFFIX + "/#{id}")
     end
 
     def updateX
