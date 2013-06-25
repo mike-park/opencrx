@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Opencrx::VERSION
   spec.authors       = ["Mike Park"]
   spec.email         = ["mikep@quake.net"]
-  spec.description   = %q{Rest-API to opencrx}
-  spec.summary       = %q{Rest API to opencrx}
+  spec.description   = %q{REST API to openCRX}
+  spec.summary       = %q{REST API to openCRX}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -27,4 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", "~> 2.6"
   spec.add_development_dependency "awesome_print"
+  spec.add_development_dependency "webmock"
+  spec.add_development_dependency "vcr"
 end

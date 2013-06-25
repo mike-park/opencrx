@@ -1,0 +1,349 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account?query=thereExistsFullName().equalTo(%22AA%20%C3%A4%C3%B6%C3%AB%C3%AF%C3%B6%C3%BC%22)&queryType=org:opencrx:kernel:account1:LegalEntity
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/xml
+      Content-Type:
+      - text/xml;charset=UTF-8
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=4B4C5059094D876EBC61759218394E33; Path=/opencrx-rest-CRX/; HttpOnly
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 25 Jun 2013 13:41:02 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG9yZy5v
+        cGVubWR4Lmtlcm5lbC5SZXN1bHRTZXQgaHJlZj0iaHR0cDovL2xvY2FsaG9z
+        dDo4MDgwL29wZW5jcngtcmVzdC1DUlgvb3JnLm9wZW5jcngua2VybmVsLmFj
+        Y291bnQxL3Byb3ZpZGVyL0NSWC9zZWdtZW50L1N0YW5kYXJkL2FjY291bnQi
+        IGhhc01vcmU9ImZhbHNlIiB0b3RhbD0iMSI+Cgk8b3JnLm9wZW5jcngua2Vy
+        bmVsLmFjY291bnQxLkxlZ2FsRW50aXR5IGhyZWY9Imh0dHA6Ly9sb2NhbGhv
+        c3Q6ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5vcGVuY3J4Lmtlcm5lbC5h
+        Y2NvdW50MS9wcm92aWRlci9DUlgvc2VnbWVudC9TdGFuZGFyZC9hY2NvdW50
+        Lzc5NTY2MTRjLWRiNjAtMTFlMi1hYzI5LTk3ZmFlZWQ5MjBkZCIgdmVyc2lv
+        bj0iYlc5a2FXWnBaV1JCZEQweU1ERXpMVEEyTFRJMVZERXpPak13T2pNd0xq
+        azROekF3TUZvPSI+CgkJPGV4dE51bWJlcjkvPgoJCTx1c2VyU3RyaW5nNC8+
+        CgkJPHVzZXJOdW1iZXIyLz4KCQk8ZGlzYWJsZWQvPgoJCTxwaWN0dXJlLz4K
+        CQk8ZXh0RGF0ZVRpbWU4Lz4KCQk8ZXh0Q29kZTE1Lz4KCQk8dXNlckJvb2xl
+        YW4zLz4KCQk8ZXh0TnVtYmVyNi8+CgkJPHVzZXJOdW1iZXIxLz4KCQk8ZnVs
+        bE5hbWU+PCFbQ0RBVEFbQUEgw6TDtsOrw6/DtsO8XV0+PC9mdWxsTmFtZT4K
+        CQk8ZXh0Q29kZTE2Lz4KCQk8ZXh0RGF0ZVRpbWU1Lz4KCQk8ZXh0Q29kZTEx
+        Lz4KCQk8ZXh0Q29kZTI0Lz4KCQk8ZGlzYWJsZWRSZWFzb24vPgoJCTxleHRD
+        b2RlNi8+CgkJPG1vZGlmaWVkQXQ+MjAxMy0wNi0yNVQxMzozMDozMC45ODda
+        PC9tb2RpZmllZEF0PgoJCTxleHRTdHJpbmcwLz4KCQk8ZXh0RGF0ZVRpbWU3
+        Lz4KCQk8dXNlckNvZGUwLz4KCQk8ZXh0Q29kZTEwLz4KCQk8dXNlckRhdGVU
+        aW1lMy8+CgkJPGV4dENvZGUxOC8+CgkJPGV4dFN0cmluZzQvPgoJCTxleHRC
+        b29sZWFuNC8+CgkJPGV4dE51bWJlcjMvPgoJCTxhY2Nlc3NMZXZlbERlbGV0
+        ZT4yPC9hY2Nlc3NMZXZlbERlbGV0ZT4KCQk8b3duZXI+CgkJCTxfaXRlbT48
+        IVtDREFUQVtTdGFuZGFyZDpndWVzdC5Vc2VyXV0+PC9faXRlbT4KCQkJPF9p
+        dGVtPjwhW0NEQVRBW1N0YW5kYXJkOlVzZXJzXV0+PC9faXRlbT4KCQkJPF9p
+        dGVtPjwhW0NEQVRBW1N0YW5kYXJkOkFkbWluaXN0cmF0b3JzXV0+PC9faXRl
+        bT4KCQk8L293bmVyPgoJCTx2Y2FyZD48IVtDREFUQVtCRUdJTjpWQ0FSRApW
+        RVJTSU9OOjMuMApVSUQ6OVVGRFYxVVFNUFg0Mk82RE1KSUYwT1M3WApSRVY6
+        MjAxMzA2MjVUMTMzMDMxWgpOOkFBIMOkw7bDq8Ovw7bDvApGTjpBQSDDpMO2
+        w6vDr8O2w7wKRU5EOlZDQVJECl1dPjwvdmNhcmQ+CgkJPG51bWJlck9mRW1w
+        bG95ZWVzQ2F0ZWdvcnk+MDwvbnVtYmVyT2ZFbXBsb3llZXNDYXRlZ29yeT4K
+        CQk8dXNlckJvb2xlYW40Lz4KCQk8ZXh0U3RyaW5nMi8+CgkJPHVzZXJTdHJp
+        bmcxLz4KCQk8dXNlck51bWJlcjQvPgoJCTxtYXN0ZXIvPgoJCTxpZGVudGl0
+        eT48IVtDREFUQVt4cmk6Ly9Ab3Blbm1keCpvcmcub3BlbmNyeC5rZXJuZWwu
+        YWNjb3VudDEvcHJvdmlkZXIvQ1JYL3NlZ21lbnQvU3RhbmRhcmQvYWNjb3Vu
+        dC83OTU2NjE0Yy1kYjYwLTExZTItYWMyOS05N2ZhZWVkOTIwZGRdXT48L2lk
+        ZW50aXR5PgoJCTxleHRTdHJpbmc2Lz4KCQk8ZXh0RGF0ZTIvPgoJCTxleHRC
+        b29sZWFuOC8+CgkJPHVzZXJDb2RlNC8+CgkJPGV4dENvZGUyMy8+CgkJPGV4
+        dE51bWJlcjcvPgoJCTxzdG9ja0V4Y2hhbmdlLz4KCQk8YWNjb3VudFJhdGlu
+        Zz4wPC9hY2NvdW50UmF0aW5nPgoJCTxleHRCb29sZWFuNS8+CgkJPGV4dENv
+        ZGU0Lz4KCQk8ZXh0TnVtYmVyMS8+CgkJPGV4dENvZGUxMy8+CgkJPGV4dE51
+        bWJlcjQvPgoJCTxleHREYXRlVGltZTMvPgoJCTxleHREYXRlVGltZTEvPgoJ
+        CTxleHRDb2RlMTkvPgoJCTxwYXJ0bmVyLz4KCQk8dXNlckRhdGUyLz4KCQk8
+        b3duaW5nVXNlciBocmVmPSJodHRwOi8vbG9jYWxob3N0OjgwODAvb3BlbmNy
+        eC1yZXN0LUNSWC9vcmcub3Blbm1keC5zZWN1cml0eS5yZWFsbTEvcHJvdmlk
+        ZXIvQ1JYL3NlZ21lbnQvUm9vdC9yZWFsbS9TdGFuZGFyZC9wcmluY2lwYWwv
+        Z3Vlc3QuVXNlciI+eHJpOi8vQG9wZW5tZHgqb3JnLm9wZW5tZHguc2VjdXJp
+        dHkucmVhbG0xL3Byb3ZpZGVyL0NSWC9zZWdtZW50L1Jvb3QvcmVhbG0vU3Rh
+        bmRhcmQvcHJpbmNpcGFsL2d1ZXN0LlVzZXI8L293bmluZ1VzZXI+CgkJPGNy
+        ZWF0ZWRCeT4KCQkJPF9pdGVtPjwhW0NEQVRBW2d1ZXN0XV0+PC9faXRlbT4K
+        CQk8L2NyZWF0ZWRCeT4KCQk8ZXh0U3RyaW5nOC8+CgkJPGV4dENvZGUzLz4K
+        CQk8bmFtZT48IVtDREFUQVtBQSDDpMO2w6vDr8O2w7xdXT48L25hbWU+CgkJ
+        PGV4dENvZGUyNi8+CgkJPGV4dENvZGU5Lz4KCQk8ZXh0ZXJuYWxMaW5rPgoJ
+        CQk8X2l0ZW0+PCFbQ0RBVEFbVkNBUkQ6OVVGRFYxVVFNUFg0Mk82RE1KSUYw
+        T1M3WF1dPjwvX2l0ZW0+CgkJPC9leHRlcm5hbExpbms+CgkJPGV4dERhdGUz
+        Lz4KCQk8dXNlclN0cmluZzIvPgoJCTxleHRCb29sZWFuNi8+CgkJPGV4dERh
+        dGVUaW1lMC8+CgkJPGV4dEJvb2xlYW4zLz4KCQk8Y2F0ZWdvcnkvPgoJCTxl
+        eHRDb2RlMjgvPgoJCTx1c2VyRGF0ZTEvPgoJCTx1c2VyRGF0ZVRpbWU0Lz4K
+        CQk8ZXh0RGF0ZTcvPgoJCTxleHRCb29sZWFuMS8+CgkJPGRlc2NyaXB0aW9u
+        Lz4KCQk8ZXh0Q29kZTAvPgoJCTxleHREYXRlNS8+CgkJPGV4dERhdGU4Lz4K
+        CQk8YWNjb3VudFR5cGUvPgoJCTxleHREYXRlVGltZTIvPgoJCTxleHRCb29s
+        ZWFuMC8+CgkJPHBpY3R1cmVDb250ZW50TmFtZS8+CgkJPGV4dENvZGUyOS8+
+        CgkJPGV4dENvZGUyMi8+CgkJPHBpY3R1cmVDb250ZW50Lz4KCQk8dXNlckRh
+        dGVUaW1lMC8+CgkJPGFsaWFzTmFtZS8+CgkJPGV4dENvZGUxLz4KCQk8ZXh0
+        RGF0ZTEvPgoJCTx0aWNrZXJTeW1ib2wvPgoJCTxleHRTdHJpbmczLz4KCQk8
+        ZXh0Q29kZTIxLz4KCQk8ZXh0RGF0ZTkvPgoJCTxleHRDb2RlMTcvPgoJCTx1
+        c2VyTnVtYmVyMy8+CgkJPGV4dENvZGU3Lz4KCQk8YWNjZXNzTGV2ZWxVcGRh
+        dGU+MjwvYWNjZXNzTGV2ZWxVcGRhdGU+CgkJPGV4dFN0cmluZzkvPgoJCTxu
+        dW1iZXJPZkVtcGxveWVlcy8+CgkJPGluZHVzdHJ5PjA8L2luZHVzdHJ5PgoJ
+        CTxleHRDb2RlMi8+CgkJPGV4dENvZGUyNS8+CgkJPGV4dFN0cmluZzcvPgoJ
+        CTx1c2VyQ29kZTMvPgoJCTx1c2VyQ29kZTEvPgoJCTx1c2VyRGF0ZVRpbWUx
+        Lz4KCQk8ZXh0Qm9vbGVhbjkvPgoJCTx1c2VyQm9vbGVhbjIvPgoJCTxwaWN0
+        dXJlQ29udGVudE1pbWVUeXBlLz4KCQk8dXNlclN0cmluZzMvPgoJCTxhY2Nv
+        dW50U3RhdGU+MDwvYWNjb3VudFN0YXRlPgoJCTxleHROdW1iZXIyLz4KCQk8
+        dXNlckNvZGUyLz4KCQk8dXNlck51bWJlcjAvPgoJCTx1c2VyQm9vbGVhbjAv
+        PgoJCTxvcmdhbml6YXRpb25hbFVuaXQvPgoJCTxhY2NvdW50Q2F0ZWdvcnkv
+        PgoJCTx1c2VyRGF0ZTQvPgoJCTxvd25pbmdHcm91cD4KCQkJPF9pdGVtIGhy
+        ZWY9Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29y
+        Zy5vcGVubWR4LnNlY3VyaXR5LnJlYWxtMS9wcm92aWRlci9DUlgvc2VnbWVu
+        dC9Sb290L3JlYWxtL1N0YW5kYXJkL3ByaW5jaXBhbC9Vc2VycyI+eHJpOi8v
+        QG9wZW5tZHgqb3JnLm9wZW5tZHguc2VjdXJpdHkucmVhbG0xL3Byb3ZpZGVy
+        L0NSWC9zZWdtZW50L1Jvb3QvcmVhbG0vU3RhbmRhcmQvcHJpbmNpcGFsL1Vz
+        ZXJzPC9faXRlbT4KCQkJPF9pdGVtIGhyZWY9Imh0dHA6Ly9sb2NhbGhvc3Q6
+        ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5vcGVubWR4LnNlY3VyaXR5LnJl
+        YWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290L3JlYWxtL1N0YW5kYXJk
+        L3ByaW5jaXBhbC9BZG1pbmlzdHJhdG9ycyI+eHJpOi8vQG9wZW5tZHgqb3Jn
+        Lm9wZW5tZHguc2VjdXJpdHkucmVhbG0xL3Byb3ZpZGVyL0NSWC9zZWdtZW50
+        L1Jvb3QvcmVhbG0vU3RhbmRhcmQvcHJpbmNpcGFsL0FkbWluaXN0cmF0b3Jz
+        PC9faXRlbT4KCQk8L293bmluZ0dyb3VwPgoJCTxleHRDb2RlMTIvPgoJCTxl
+        eHRTdHJpbmc1Lz4KCQk8dXNlckRhdGUwLz4KCQk8ZXh0TnVtYmVyMC8+CgkJ
+        PGV4dE51bWJlcjUvPgoJCTxleHRTdHJpbmcxLz4KCQk8ZXh0RGF0ZTYvPgoJ
+        CTx1c2VyRGF0ZVRpbWUyLz4KCQk8dXNlckRhdGUzLz4KCQk8dXNlckJvb2xl
+        YW4xLz4KCQk8dXNlclN0cmluZzAvPgoJCTxtb2RpZmllZEJ5PgoJCQk8X2l0
+        ZW0+PCFbQ0RBVEFbZ3Vlc3RdXT48L19pdGVtPgoJCTwvbW9kaWZpZWRCeT4K
+        CQk8ZXh0Qm9vbGVhbjIvPgoJCTxleHREYXRlVGltZTkvPgoJCTxleHREYXRl
+        NC8+CgkJPGNyZWF0ZWRBdD4yMDEzLTA2LTI1VDEzOjMwOjMwLjk4N1o8L2Ny
+        ZWF0ZWRBdD4KCQk8ZXh0RGF0ZVRpbWU2Lz4KCQk8ZXh0RGF0ZVRpbWU0Lz4K
+        CQk8ZXh0Q29kZTIwLz4KCQk8ZXh0Qm9vbGVhbjcvPgoJCTxhY2Nlc3NMZXZl
+        bEJyb3dzZT4zPC9hY2Nlc3NMZXZlbEJyb3dzZT4KCQk8ZXh0Q29kZTE0Lz4K
+        CQk8ZXh0Q29kZTUvPgoJCTxleHROdW1iZXI4Lz4KCQk8ZXh0RGF0ZTAvPgoJ
+        CTxleHRDb2RlMjcvPgoJCTxjb250YWN0Lz4KCQk8YnVzaW5lc3NUeXBlLz4K
+        CQk8ZXh0Q29kZTgvPgoJPC9vcmcub3BlbmNyeC5rZXJuZWwuYWNjb3VudDEu
+        TGVnYWxFbnRpdHk+Cjwvb3JnLm9wZW5tZHgua2VybmVsLlJlc3VsdFNldD4=
+    http_version: 
+  recorded_at: Tue, 25 Jun 2013 13:41:02 GMT
+- request:
+    method: put
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/7956614c-db60-11e2-ac29-97faeed920dd
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+        <org.opencrx.kernel.account1.LegalEntity>
+          <extNumber9 nil="true"/>
+          <userString4 nil="true"/>
+          <userNumber2 nil="true"/>
+          <disabled nil="true"/>
+          <picture nil="true"/>
+          <extDateTime8 nil="true"/>
+          <extCode15 nil="true"/>
+          <userBoolean3 nil="true"/>
+          <extNumber6 nil="true"/>
+          <userNumber1 nil="true"/>
+          <fullName>AA äöëïöü</fullName>
+          <extCode16 nil="true"/>
+          <extDateTime5 nil="true"/>
+          <extCode11 nil="true"/>
+          <extCode24 nil="true"/>
+          <disabledReason nil="true"/>
+          <extCode6 nil="true"/>
+          <modifiedAt>2013-06-25T13:30:30.987Z</modifiedAt>
+          <extString0 nil="true"/>
+          <extDateTime7 nil="true"/>
+          <userCode0 nil="true"/>
+          <extCode10 nil="true"/>
+          <userDateTime3 nil="true"/>
+          <extCode18 nil="true"/>
+          <extString4 nil="true"/>
+          <extBoolean4 nil="true"/>
+          <extNumber3 nil="true"/>
+          <accessLevelDelete>2</accessLevelDelete>
+          <owner type="array">
+            <_item>Standard:guest.User</_item>
+            <_item>Standard:Users</_item>
+            <_item>Standard:Administrators</_item>
+          </owner>
+          <vcard>BEGIN:VCARD
+        VERSION:3.0
+        UID:9UFDV1UQMPX42O6DMJIF0OS7X
+        REV:20130625T133031Z
+        N:AA äöëïöü
+        FN:AA äöëïöü
+        END:VCARD
+        </vcard>
+          <numberOfEmployeesCategory>0</numberOfEmployeesCategory>
+          <userBoolean4 nil="true"/>
+          <extString2 nil="true"/>
+          <userString1 nil="true"/>
+          <userNumber4 nil="true"/>
+          <master nil="true"/>
+          <identity>xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/7956614c-db60-11e2-ac29-97faeed920dd</identity>
+          <extString6 nil="true"/>
+          <extDate2 nil="true"/>
+          <extBoolean8 nil="true"/>
+          <userCode4 nil="true"/>
+          <extCode23 nil="true"/>
+          <extNumber7 nil="true"/>
+          <stockExchange nil="true"/>
+          <accountRating>0</accountRating>
+          <extBoolean5 nil="true"/>
+          <extCode4 nil="true"/>
+          <extNumber1 nil="true"/>
+          <extCode13 nil="true"/>
+          <extNumber4 nil="true"/>
+          <extDateTime3 nil="true"/>
+          <extDateTime1 nil="true"/>
+          <extCode19 nil="true"/>
+          <partner nil="true"/>
+          <userDate2 nil="true"/>
+          <createdBy type="array">
+            <_item>guest</_item>
+          </createdBy>
+          <extString8 nil="true"/>
+          <extCode3 nil="true"/>
+          <name>AA More reasonable</name>
+          <extCode26 nil="true"/>
+          <extCode9 nil="true"/>
+          <externalLink type="array">
+            <_item>VCARD:9UFDV1UQMPX42O6DMJIF0OS7X</_item>
+          </externalLink>
+          <extDate3 nil="true"/>
+          <userString2 nil="true"/>
+          <extBoolean6 nil="true"/>
+          <extDateTime0 nil="true"/>
+          <extBoolean3 nil="true"/>
+          <category nil="true"/>
+          <extCode28 nil="true"/>
+          <userDate1 nil="true"/>
+          <userDateTime4 nil="true"/>
+          <extDate7 nil="true"/>
+          <extBoolean1 nil="true"/>
+          <description nil="true"/>
+          <extCode0 nil="true"/>
+          <extDate5 nil="true"/>
+          <extDate8 nil="true"/>
+          <accountType nil="true"/>
+          <extDateTime2 nil="true"/>
+          <extBoolean0 nil="true"/>
+          <pictureContentName nil="true"/>
+          <extCode29 nil="true"/>
+          <extCode22 nil="true"/>
+          <pictureContent nil="true"/>
+          <userDateTime0 nil="true"/>
+          <aliasName nil="true"/>
+          <extCode1 nil="true"/>
+          <extDate1 nil="true"/>
+          <tickerSymbol nil="true"/>
+          <extString3 nil="true"/>
+          <extCode21 nil="true"/>
+          <extDate9 nil="true"/>
+          <extCode17 nil="true"/>
+          <userNumber3 nil="true"/>
+          <extCode7 nil="true"/>
+          <accessLevelUpdate>2</accessLevelUpdate>
+          <extString9 nil="true"/>
+          <numberOfEmployees nil="true"/>
+          <industry>0</industry>
+          <extCode2 nil="true"/>
+          <extCode25 nil="true"/>
+          <extString7 nil="true"/>
+          <userCode3 nil="true"/>
+          <userCode1 nil="true"/>
+          <userDateTime1 nil="true"/>
+          <extBoolean9 nil="true"/>
+          <userBoolean2 nil="true"/>
+          <pictureContentMimeType nil="true"/>
+          <userString3 nil="true"/>
+          <accountState>0</accountState>
+          <extNumber2 nil="true"/>
+          <userCode2 nil="true"/>
+          <userNumber0 nil="true"/>
+          <userBoolean0 nil="true"/>
+          <organizationalUnit nil="true"/>
+          <accountCategory nil="true"/>
+          <userDate4 nil="true"/>
+          <extCode12 nil="true"/>
+          <extString5 nil="true"/>
+          <userDate0 nil="true"/>
+          <extNumber0 nil="true"/>
+          <extNumber5 nil="true"/>
+          <extString1 nil="true"/>
+          <extDate6 nil="true"/>
+          <userDateTime2 nil="true"/>
+          <userDate3 nil="true"/>
+          <userBoolean1 nil="true"/>
+          <userString0 nil="true"/>
+          <modifiedBy type="array">
+            <_item>guest</_item>
+          </modifiedBy>
+          <extBoolean2 nil="true"/>
+          <extDateTime9 nil="true"/>
+          <extDate4 nil="true"/>
+          <createdAt>2013-06-25T13:30:30.987Z</createdAt>
+          <extDateTime6 nil="true"/>
+          <extDateTime4 nil="true"/>
+          <extCode20 nil="true"/>
+          <extBoolean7 nil="true"/>
+          <accessLevelBrowse>3</accessLevelBrowse>
+          <extCode14 nil="true"/>
+          <extCode5 nil="true"/>
+          <extNumber8 nil="true"/>
+          <extDate0 nil="true"/>
+          <extCode27 nil="true"/>
+          <contact nil="true"/>
+          <businessType nil="true"/>
+          <extCode8 nil="true"/>
+        </org.opencrx.kernel.account1.LegalEntity>
+    headers:
+      Accept:
+      - text/xml
+      Content-Type:
+      - text/xml;charset=UTF-8
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=4999BC3C89D6BA2E0119AA25E15E497B; Path=/opencrx-rest-CRX/; HttpOnly
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 25 Jun 2013 13:41:02 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<org.opencrx.kernel.account1.LegalEntity
+        href=\"http://localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/7956614c-db60-11e2-ac29-97faeed920dd\">\n\t<extNumber9/>\n\t<userString4/>\n\t<userNumber2/>\n\t<disabled/>\n\t<picture/>\n\t<extDateTime8/>\n\t<extCode15/>\n\t<userBoolean3/>\n\t<extNumber6/>\n\t<userNumber1/>\n\t<fullName><![CDATA[AA
+        More reasonable]]></fullName>\n\t<extCode16/>\n\t<extDateTime5/>\n\t<extCode11/>\n\t<extCode24/>\n\t<disabledReason/>\n\t<extCode6/>\n\t<modifiedAt>2013-06-25T13:41:02.518Z</modifiedAt>\n\t<extString0/>\n\t<extDateTime7/>\n\t<userCode0/>\n\t<extCode10/>\n\t<userDateTime3/>\n\t<extCode18/>\n\t<extString4/>\n\t<extBoolean4/>\n\t<extNumber3/>\n\t<accessLevelDelete>2</accessLevelDelete>\n\t<owner>\n\t\t<_item><![CDATA[Standard:guest.User]]></_item>\n\t\t<_item><![CDATA[Standard:Users]]></_item>\n\t\t<_item><![CDATA[Standard:Administrators]]></_item>\n\t</owner>\n\t<vcard><![CDATA[BEGIN:VCARD\nVERSION:3.0\nUID:9UFDV1UQMPX42O6DMJIF0OS7X\nREV:20130625T134102Z\nN:AA
+        More reasonable\nFN:AA More reasonable\nEND:VCARD\n]]></vcard>\n\t<numberOfEmployeesCategory>0</numberOfEmployeesCategory>\n\t<userBoolean4/>\n\t<extString2/>\n\t<userString1/>\n\t<userNumber4/>\n\t<master/>\n\t<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/7956614c-db60-11e2-ac29-97faeed920dd]]></identity>\n\t<extString6/>\n\t<extDate2/>\n\t<extBoolean8/>\n\t<userCode4/>\n\t<extCode23/>\n\t<extNumber7/>\n\t<stockExchange/>\n\t<accountRating>0</accountRating>\n\t<extBoolean5/>\n\t<extCode4/>\n\t<extNumber1/>\n\t<extCode13/>\n\t<extNumber4/>\n\t<extDateTime3/>\n\t<extDateTime1/>\n\t<extCode19/>\n\t<partner/>\n\t<userDate2/>\n\t<owningUser
+        href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>\n\t<createdBy>\n\t\t<_item><![CDATA[guest]]></_item>\n\t</createdBy>\n\t<extString8/>\n\t<extCode3/>\n\t<name><![CDATA[AA
+        More reasonable]]></name>\n\t<extCode26/>\n\t<extCode9/>\n\t<externalLink>\n\t\t<_item><![CDATA[VCARD:9UFDV1UQMPX42O6DMJIF0OS7X]]></_item>\n\t</externalLink>\n\t<extDate3/>\n\t<userString2/>\n\t<extBoolean6/>\n\t<extDateTime0/>\n\t<extBoolean3/>\n\t<category/>\n\t<extCode28/>\n\t<userDate1/>\n\t<userDateTime4/>\n\t<extDate7/>\n\t<extBoolean1/>\n\t<description/>\n\t<extCode0/>\n\t<extDate5/>\n\t<extDate8/>\n\t<accountType/>\n\t<extDateTime2/>\n\t<extBoolean0/>\n\t<pictureContentName/>\n\t<extCode29/>\n\t<extCode22/>\n\t<pictureContent/>\n\t<userDateTime0/>\n\t<aliasName/>\n\t<extCode1/>\n\t<extDate1/>\n\t<tickerSymbol/>\n\t<extString3/>\n\t<extCode21/>\n\t<extDate9/>\n\t<extCode17/>\n\t<userNumber3/>\n\t<extCode7/>\n\t<accessLevelUpdate>2</accessLevelUpdate>\n\t<extString9/>\n\t<numberOfEmployees/>\n\t<industry>0</industry>\n\t<extCode2/>\n\t<extCode25/>\n\t<extString7/>\n\t<userCode3/>\n\t<userCode1/>\n\t<userDateTime1/>\n\t<extBoolean9/>\n\t<userBoolean2/>\n\t<pictureContentMimeType/>\n\t<userString3/>\n\t<accountState>0</accountState>\n\t<extNumber2/>\n\t<userCode2/>\n\t<userNumber0/>\n\t<userBoolean0/>\n\t<organizationalUnit/>\n\t<accountCategory/>\n\t<userDate4/>\n\t<owningGroup>\n\t\t<_item
+        href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>\n\t\t<_item
+        href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>\n\t</owningGroup>\n\t<extCode12/>\n\t<extString5/>\n\t<userDate0/>\n\t<extNumber0/>\n\t<extNumber5/>\n\t<extString1/>\n\t<extDate6/>\n\t<userDateTime2/>\n\t<userDate3/>\n\t<userBoolean1/>\n\t<userString0/>\n\t<modifiedBy>\n\t\t<_item><![CDATA[guest]]></_item>\n\t</modifiedBy>\n\t<extBoolean2/>\n\t<extDateTime9/>\n\t<extDate4/>\n\t<createdAt>2013-06-25T13:30:30.987Z</createdAt>\n\t<extDateTime6/>\n\t<extDateTime4/>\n\t<extCode20/>\n\t<extBoolean7/>\n\t<accessLevelBrowse>3</accessLevelBrowse>\n\t<extCode14/>\n\t<extCode5/>\n\t<extNumber8/>\n\t<extDate0/>\n\t<extCode27/>\n\t<contact/>\n\t<businessType/>\n\t<extCode8/>\n</org.opencrx.kernel.account1.LegalEntity>"
+    http_version: 
+  recorded_at: Tue, 25 Jun 2013 13:41:03 GMT
+recorded_with: VCR 2.5.0
