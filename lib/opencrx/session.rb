@@ -40,7 +40,7 @@ module Opencrx
     end
 
     def delete(url, options = {})
-      action(:delete, url, options)
+      action(:delete, url, options.merge(headers: {}))
     end
 
     def action(method, url, options)
@@ -50,8 +50,8 @@ module Opencrx
       code = response.response.code
       case code
         when /^[45]/
-          logger.warn { response.response }
-          logger.warn { response.response.body }
+          logger.info { response.response }
+          logger.info { response.response.body }
           raise HttpError.new(response)
         else
           response

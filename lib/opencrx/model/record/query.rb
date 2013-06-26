@@ -13,8 +13,8 @@ module Opencrx
         end
 
         def get(id, options = {})
-          item_url = "#{query_url}/#{id}"
-          response = Opencrx::session.get(item_url, query: merge_options(options))
+          url = url_from_id(id)
+          response = Opencrx::session.get(url, query: merge_options(options))
           Result.parse(response)
         end
 
@@ -38,6 +38,11 @@ module Opencrx
           @query_type_option ||= {
               queryType: Map.model_to_opencrx_query(self)
           }
+        end
+
+        def url_from_id(id)
+          return id if id.match(/^https?:\/\//)
+          "#{query_url}/#{id}"
         end
       end
 

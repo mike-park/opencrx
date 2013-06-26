@@ -4,25 +4,23 @@ require 'opencrx/model/record/query'
 module Opencrx
   module Model
     class Record
-      have_attributes :href, :identity
+      have_attributes :href, :identity, :modifiedAt, :createdAt, :userString0, :userString1, :userString2, :userString3
 
       def save
-        href = attributes['href'] || self.class.query_url
-        response = if attributes['identity']
-                     Opencrx::session.put(href, body: to_xml)
-                   else
-                     Opencrx::session.post(href, body: to_xml)
-                   end
-        Result.parse(response)
+        url = href || self.class.query_url
+        action = identity ? :put : :post
+        response = Opencrx::session.send(action, url, body: to_xml)
+        if (new_record = Result.parse(response)) && new_record.class == self.class
+          self.attributes = new_record.attributes
+          true
+        else
+          false
+        end
       end
 
-      # TODO implement delete
       def destroy
-        href = attributes['href']
-        # this errors with No active unit of work
-        #Opencrx::session.delete(href, body: to_xml)
-        # this errors with Premature end of file.
-        #Opencrx::session.delete(href)
+        response = Opencrx::session.delete(href)
+        response.response.code == '204'
       end
     end
   end

@@ -23,28 +23,28 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=6E6100BAD8312F867001380C02C55370; Path=/opencrx-rest-CRX/; HttpOnly
+      - JSESSIONID=F8C96F5D9297185A3244E83D76428CF2; Path=/opencrx-rest-CRX/; HttpOnly
       Content-Type:
       - text/xml;charset=UTF-8
       Transfer-Encoding:
       - chunked
       Date:
-      - Tue, 25 Jun 2013 13:57:27 GMT
+      - Wed, 26 Jun 2013 10:05:32 GMT
     body:
       encoding: UTF-8
       string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<org.opencrx.kernel.account1.LegalEntity
-        href=\"http://localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/2640d6e5-db3f-11e2-ac29-97faeed920dd\">\n\t<extNumber9/>\n\t<userString4/>\n\t<userNumber2/>\n\t<disabled/>\n\t<picture/>\n\t<extDateTime8/>\n\t<extCode15/>\n\t<userBoolean3/>\n\t<extNumber6/>\n\t<userNumber1/>\n\t<fullName><![CDATA[AA
-        With Address]]></fullName>\n\t<extCode16/>\n\t<extDateTime5/>\n\t<extCode11/>\n\t<extCode24/>\n\t<disabledReason/>\n\t<extCode6/>\n\t<modifiedAt>2013-06-25T13:57:26.888Z</modifiedAt>\n\t<extString0/>\n\t<extDateTime7/>\n\t<userCode0/>\n\t<extCode10/>\n\t<userDateTime3/>\n\t<extCode18/>\n\t<extString4/>\n\t<extBoolean4/>\n\t<extNumber3/>\n\t<accessLevelDelete>2</accessLevelDelete>\n\t<owner>\n\t\t<_item><![CDATA[Standard:guest.User]]></_item>\n\t\t<_item><![CDATA[Standard:Users]]></_item>\n\t\t<_item><![CDATA[Standard:Administrators]]></_item>\n\t</owner>\n\t<vcard><![CDATA[BEGIN:VCARD\nVERSION:3.0\nUID:3KXX0608YZ7C2O6DMJIF0OS7X\nREV:20130625T135726Z\nN:AA
-        With Address\nFN:AA With Address\nEND:VCARD\n]]></vcard>\n\t<numberOfEmployeesCategory>0</numberOfEmployeesCategory>\n\t<userBoolean4/>\n\t<extString2/>\n\t<userString1/>\n\t<userNumber4/>\n\t<master/>\n\t<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/2640d6e5-db3f-11e2-ac29-97faeed920dd]]></identity>\n\t<extString6/>\n\t<extDate2/>\n\t<extBoolean8/>\n\t<userCode4/>\n\t<extCode23/>\n\t<extNumber7/>\n\t<stockExchange/>\n\t<accountRating>0</accountRating>\n\t<extBoolean5/>\n\t<extCode4/>\n\t<extNumber1/>\n\t<extCode13/>\n\t<extNumber4/>\n\t<extDateTime3/>\n\t<extDateTime1/>\n\t<extCode19/>\n\t<partner/>\n\t<userDate2/>\n\t<owningUser
-        href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>\n\t<createdBy>\n\t\t<_item><![CDATA[guest]]></_item>\n\t</createdBy>\n\t<extString8/>\n\t<extCode3/>\n\t<name><![CDATA[AA
-        With Address]]></name>\n\t<extCode26/>\n\t<extCode9/>\n\t<externalLink>\n\t\t<_item><![CDATA[VCARD:3KXX0608YZ7C2O6DMJIF0OS7X]]></_item>\n\t</externalLink>\n\t<extDate3/>\n\t<userString2/>\n\t<extBoolean6/>\n\t<extDateTime0/>\n\t<extBoolean3/>\n\t<category/>\n\t<extCode28/>\n\t<userDate1/>\n\t<userDateTime4/>\n\t<extDate7/>\n\t<extBoolean1/>\n\t<description/>\n\t<extCode0/>\n\t<extDate5/>\n\t<extDate8/>\n\t<accountType/>\n\t<extDateTime2/>\n\t<extBoolean0/>\n\t<pictureContentName/>\n\t<extCode29/>\n\t<extCode22/>\n\t<pictureContent/>\n\t<userDateTime0/>\n\t<aliasName/>\n\t<extCode1/>\n\t<extDate1/>\n\t<tickerSymbol/>\n\t<extString3/>\n\t<extCode21/>\n\t<extDate9/>\n\t<extCode17/>\n\t<userNumber3/>\n\t<extCode7/>\n\t<accessLevelUpdate>2</accessLevelUpdate>\n\t<extString9/>\n\t<numberOfEmployees/>\n\t<industry>0</industry>\n\t<extCode2/>\n\t<extCode25/>\n\t<extString7/>\n\t<userCode3/>\n\t<userCode1/>\n\t<userDateTime1/>\n\t<extBoolean9/>\n\t<userBoolean2/>\n\t<pictureContentMimeType/>\n\t<userString3/>\n\t<accountState>0</accountState>\n\t<extNumber2/>\n\t<userCode2/>\n\t<userNumber0/>\n\t<userBoolean0/>\n\t<organizationalUnit/>\n\t<accountCategory/>\n\t<userDate4/>\n\t<owningGroup>\n\t\t<_item
+        href=\"http://localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/1a86c658-de47-11e2-9d40-99bae95472e7\">\n\t<userBoolean3/>\n\t<extDate8/>\n\t<userNumber4/>\n\t<userDateTime1/>\n\t<extCode4/>\n\t<extCode17/>\n\t<extCode29/>\n\t<extCode20/>\n\t<master/>\n\t<userDateTime3/>\n\t<extString3/>\n\t<extDate0/>\n\t<extCode14/>\n\t<userString4/>\n\t<extDateTime3/>\n\t<identity><![CDATA[xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/1a86c658-de47-11e2-9d40-99bae95472e7]]></identity>\n\t<extCode3/>\n\t<accountType/>\n\t<extBoolean5/>\n\t<extBoolean4/>\n\t<extCode16/>\n\t<extDate9/>\n\t<userDate2/>\n\t<userDate4/>\n\t<extString6/>\n\t<disabledReason/>\n\t<userNumber3/>\n\t<extBoolean3/>\n\t<extDateTime1/>\n\t<userCode2/>\n\t<extCode9/>\n\t<tickerSymbol/>\n\t<userCode0/>\n\t<extBoolean1/>\n\t<extNumber1/>\n\t<extNumber9/>\n\t<userBoolean0/>\n\t<pictureContentName/>\n\t<userNumber0/>\n\t<extString1/>\n\t<extCode5/>\n\t<extDate4/>\n\t<userCode3/>\n\t<createdAt>2013-06-26T10:05:33.266Z</createdAt>\n\t<extDateTime6/>\n\t<extString8/>\n\t<extCode25/>\n\t<userDate0/>\n\t<numberOfEmployeesCategory>0</numberOfEmployeesCategory>\n\t<contact/>\n\t<userString2/>\n\t<extDateTime2/>\n\t<extCode21/>\n\t<extDateTime7/>\n\t<userString1/>\n\t<accountState>0</accountState>\n\t<extCode0/>\n\t<pictureContentMimeType/>\n\t<fullName><![CDATA[AA
+        With Address]]></fullName>\n\t<extCode6/>\n\t<extDateTime4/>\n\t<accessLevelDelete>2</accessLevelDelete>\n\t<extCode7/>\n\t<accessLevelUpdate>2</accessLevelUpdate>\n\t<userCode4/>\n\t<extCode27/>\n\t<extBoolean8/>\n\t<picture/>\n\t<description/>\n\t<userBoolean1/>\n\t<extDate7/>\n\t<modifiedAt>2013-06-26T10:05:33.266Z</modifiedAt>\n\t<userNumber1/>\n\t<extNumber6/>\n\t<extDateTime5/>\n\t<extCode11/>\n\t<owningGroup>\n\t\t<_item
         href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Users</_item>\n\t\t<_item
-        href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>\n\t</owningGroup>\n\t<extCode12/>\n\t<extString5/>\n\t<userDate0/>\n\t<extNumber0/>\n\t<extNumber5/>\n\t<extString1/>\n\t<extDate6/>\n\t<userDateTime2/>\n\t<userDate3/>\n\t<userBoolean1/>\n\t<userString0/>\n\t<modifiedBy>\n\t\t<_item><![CDATA[guest]]></_item>\n\t</modifiedBy>\n\t<extBoolean2/>\n\t<extDateTime9/>\n\t<extDate4/>\n\t<createdAt>2013-06-25T13:57:26.888Z</createdAt>\n\t<extDateTime6/>\n\t<extDateTime4/>\n\t<extCode20/>\n\t<extBoolean7/>\n\t<accessLevelBrowse>3</accessLevelBrowse>\n\t<extCode14/>\n\t<extCode5/>\n\t<extNumber8/>\n\t<extDate0/>\n\t<extCode27/>\n\t<contact/>\n\t<businessType/>\n\t<extCode8/>\n</org.opencrx.kernel.account1.LegalEntity>"
+        href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/Administrators</_item>\n\t</owningGroup>\n\t<userString0/>\n\t<stockExchange/>\n\t<userDateTime4/>\n\t<extBoolean9/>\n\t<extCode12/>\n\t<vcard><![CDATA[BEGIN:VCARD\nVERSION:3.0\nUID:3EISQIF4SPXIAG0IRRCHCRENB\nREV:20130626T100533Z\nN:AA
+        With Address\nFN:AA With Address\nEND:VCARD\n]]></vcard>\n\t<extDate1/>\n\t<extString5/>\n\t<industry>0</industry>\n\t<extString9/>\n\t<accountRating>0</accountRating>\n\t<extDate5/>\n\t<extNumber0/>\n\t<extString0/>\n\t<extNumber4/>\n\t<owner>\n\t\t<_item><![CDATA[Standard:guest.User]]></_item>\n\t\t<_item><![CDATA[Standard:Users]]></_item>\n\t\t<_item><![CDATA[Standard:Administrators]]></_item>\n\t</owner>\n\t<extBoolean2/>\n\t<numberOfEmployees/>\n\t<extCode13/>\n\t<name><![CDATA[AA
+        With Address]]></name>\n\t<userDateTime0/>\n\t<extString4/>\n\t<extBoolean6/>\n\t<extCode28/>\n\t<userBoolean4/>\n\t<userDate3/>\n\t<extCode8/>\n\t<extCode26/>\n\t<aliasName/>\n\t<userNumber2/>\n\t<extNumber7/>\n\t<extDateTime0/>\n\t<category/>\n\t<extNumber8/>\n\t<extCode1/>\n\t<pictureContent/>\n\t<extNumber2/>\n\t<userBoolean2/>\n\t<extCode2/>\n\t<extDate6/>\n\t<userCode1/>\n\t<modifiedBy>\n\t\t<_item><![CDATA[guest]]></_item>\n\t</modifiedBy>\n\t<externalLink>\n\t\t<_item><![CDATA[VCARD:3EISQIF4SPXIAG0IRRCHCRENB]]></_item>\n\t</externalLink>\n\t<extDate3/>\n\t<extCode24/>\n\t<extDateTime9/>\n\t<userDateTime2/>\n\t<extCode19/>\n\t<extBoolean0/>\n\t<accessLevelBrowse>3</accessLevelBrowse>\n\t<extCode10/>\n\t<disabled/>\n\t<owningUser
+        href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.User</owningUser>\n\t<userString3/>\n\t<userDate1/>\n\t<extDate2/>\n\t<organizationalUnit/>\n\t<extCode18/>\n\t<extDateTime8/>\n\t<partner/>\n\t<createdBy>\n\t\t<_item><![CDATA[guest]]></_item>\n\t</createdBy>\n\t<extString2/>\n\t<extCode15/>\n\t<accountCategory/>\n\t<businessType/>\n\t<extCode22/>\n\t<extString7/>\n\t<extNumber3/>\n\t<extNumber5/>\n\t<extCode23/>\n\t<extBoolean7/>\n</org.opencrx.kernel.account1.LegalEntity>"
     http_version: 
-  recorded_at: Tue, 25 Jun 2013 13:57:27 GMT
+  recorded_at: Wed, 26 Jun 2013 10:05:34 GMT
 - request:
     method: post
-    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/2640d6e5-db3f-11e2-ac29-97faeed920dd/address
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/1a86c658-de47-11e2-9d40-99bae95472e7/address
     body:
       encoding: UTF-8
       string: |
@@ -67,13 +67,13 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=3B02286A0918A2C0AE5E22131F99FD33; Path=/opencrx-rest-CRX/; HttpOnly
+      - JSESSIONID=8534E68180F7607321069AA66D29B734; Path=/opencrx-rest-CRX/; HttpOnly
       Content-Type:
       - text/xml;charset=UTF-8
       Transfer-Encoding:
       - chunked
       Date:
-      - Tue, 25 Jun 2013 13:57:27 GMT
+      - Wed, 26 Jun 2013 10:05:32 GMT
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -81,73 +81,73 @@ http_interactions:
         cGVuY3J4Lmtlcm5lbC5hY2NvdW50MS5Qb3N0YWxBZGRyZXNzIGhyZWY9Imh0
         dHA6Ly9sb2NhbGhvc3Q6ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5vcGVu
         Y3J4Lmtlcm5lbC5hY2NvdW50MS9wcm92aWRlci9DUlgvc2VnbWVudC9TdGFu
-        ZGFyZC9hY2NvdW50LzI2NDBkNmU1LWRiM2YtMTFlMi1hYzI5LTk3ZmFlZWQ5
-        MjBkZC9hZGRyZXNzLzAwOTg0NDJkLWRiM2YtMTFlMi1hYzI5LTk3ZmFlZWQ5
-        MjBkZCI+Cgk8dXNlclN0cmluZzQvPgoJPHBvc3RhbExvbmdpdHVkZS8+Cgk8
-        cmVnaW9uMS8+Cgk8cG9zdGFsU3RhdGUvPgoJPHBvc3RhbFV0Y09mZnNldD4w
-        PC9wb3N0YWxVdGNPZmZzZXQ+Cgk8YnVpbGRpbmcvPgoJPHJlZ2lvblR5cGUz
-        Lz4KCTxwaWN0dXJlLz4KCTxyZWdpb25UeXBlMi8+Cgk8ZGlzYWJsZWQvPgoJ
-        PHBvc3RhbEZyZWlnaHRUZXJtcz4wPC9wb3N0YWxGcmVpZ2h0VGVybXM+Cgk8
-        dXNlckJvb2xlYW4zLz4KCTx1c2VyTnVtYmVyMS8+Cgk8cG9zdGFsQ29kZT48
-        IVtDREFUQVszMzMzMF1dPjwvcG9zdGFsQ29kZT4KCTxwaWN0dXJlQ29udGVu
-        dE5hbWUvPgoJPHVzYWdlLz4KCTxwaWN0dXJlQ29udGVudC8+Cgk8ZGlzYWJs
-        ZWRSZWFzb24vPgoJPHVzZXJEYXRlVGltZTAvPgoJPG1vZGlmaWVkQXQ+MjAx
-        My0wNi0yNVQxMzo1NzoyNy40ODhaPC9tb2RpZmllZEF0PgoJPHJlZ2lvblR5
-        cGUxLz4KCTx1c2VyQ29kZTAvPgoJPHVzZXJEYXRlVGltZTMvPgoJPHBvc3Rh
-        bExhdGl0dWRlLz4KCTx1c2VyTnVtYmVyMy8+Cgk8YWNjZXNzTGV2ZWxEZWxl
-        dGU+MjwvYWNjZXNzTGV2ZWxEZWxldGU+Cgk8b3duZXI+CgkJPF9pdGVtPjwh
-        W0NEQVRBW1N0YW5kYXJkOmd1ZXN0LlVzZXJdXT48L19pdGVtPgoJCTxfaXRl
-        bT48IVtDREFUQVtTdGFuZGFyZDpVc2Vyc11dPjwvX2l0ZW0+CgkJPF9pdGVt
-        PjwhW0NEQVRBW1N0YW5kYXJkOkFkbWluaXN0cmF0b3JzXV0+PC9faXRlbT4K
-        CTwvb3duZXI+Cgk8YWNjZXNzTGV2ZWxVcGRhdGU+MjwvYWNjZXNzTGV2ZWxV
-        cGRhdGU+Cgk8dHovPgoJPHVzZXJCb29sZWFuNC8+Cgk8dXNlclN0cmluZzEv
-        PgoJPHVzZXJDb2RlMy8+Cgk8cmVnaW9uMi8+Cgk8dXNlckNvZGUxLz4KCTx1
-        c2VyRGF0ZVRpbWUxLz4KCTxwb3N0YWxDb3VudHJ5PjA8L3Bvc3RhbENvdW50
-        cnk+Cgk8dXNlckJvb2xlYW4yLz4KCTxwaWN0dXJlQ29udGVudE1pbWVUeXBl
-        Lz4KCTxpc01haW4+ZmFsc2U8L2lzTWFpbj4KCTx1c2VyTnVtYmVyNC8+Cgk8
-        dXNlclN0cmluZzMvPgoJPGlkZW50aXR5PjwhW0NEQVRBW3hyaTovL0BvcGVu
-        bWR4Km9yZy5vcGVuY3J4Lmtlcm5lbC5hY2NvdW50MS9wcm92aWRlci9DUlgv
-        c2VnbWVudC9TdGFuZGFyZC9hY2NvdW50LzI2NDBkNmU1LWRiM2YtMTFlMi1h
-        YzI5LTk3ZmFlZWQ5MjBkZC9hZGRyZXNzLzAwOTg0NDJkLWRiM2YtMTFlMi1h
-        YzI5LTk3ZmFlZWQ5MjBkZF1dPjwvaWRlbnRpdHk+Cgk8dXNlck51bWJlcjAv
-        PgoJPHVzZXJDb2RlMi8+Cgk8dXNlckNvZGU0Lz4KCTx1c2VyQm9vbGVhbjAv
-        PgoJPHVzZXJEYXRlNC8+Cgk8b3duaW5nR3JvdXA+CgkJPF9pdGVtIGhyZWY9
-        Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5v
-        cGVubWR4LnNlY3VyaXR5LnJlYWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9S
-        b290L3JlYWxtL1N0YW5kYXJkL3ByaW5jaXBhbC9Vc2VycyI+eHJpOi8vQG9w
-        ZW5tZHgqb3JnLm9wZW5tZHguc2VjdXJpdHkucmVhbG0xL3Byb3ZpZGVyL0NS
-        WC9zZWdtZW50L1Jvb3QvcmVhbG0vU3RhbmRhcmQvcHJpbmNpcGFsL1VzZXJz
-        PC9faXRlbT4KCQk8X2l0ZW0gaHJlZj0iaHR0cDovL2xvY2FsaG9zdDo4MDgw
-        L29wZW5jcngtcmVzdC1DUlgvb3JnLm9wZW5tZHguc2VjdXJpdHkucmVhbG0x
-        L3Byb3ZpZGVyL0NSWC9zZWdtZW50L1Jvb3QvcmVhbG0vU3RhbmRhcmQvcHJp
-        bmNpcGFsL0FkbWluaXN0cmF0b3JzIj54cmk6Ly9Ab3Blbm1keCpvcmcub3Bl
-        bm1keC5zZWN1cml0eS5yZWFsbTEvcHJvdmlkZXIvQ1JYL3NlZ21lbnQvUm9v
-        dC9yZWFsbS9TdGFuZGFyZC9wcmluY2lwYWwvQWRtaW5pc3RyYXRvcnM8L19p
-        dGVtPgoJPC9vd25pbmdHcm91cD4KCTx1c2VyRGF0ZTAvPgoJPHVzZXJEYXRl
-        VGltZTIvPgoJPHVzZXJEYXRlMy8+Cgk8dXNlckRhdGUyLz4KCTxjcmVhdGVk
-        Qnk+CgkJPF9pdGVtPjwhW0NEQVRBW2d1ZXN0XV0+PC9faXRlbT4KCTwvY3Jl
-        YXRlZEJ5PgoJPHVzZXJCb29sZWFuMS8+Cgk8dXNlclN0cmluZzAvPgoJPG1v
-        ZGlmaWVkQnk+CgkJPF9pdGVtPjwhW0NEQVRBW2d1ZXN0XV0+PC9faXRlbT4K
-        CTwvbW9kaWZpZWRCeT4KCTxvd25pbmdVc2VyIGhyZWY9Imh0dHA6Ly9sb2Nh
-        bGhvc3Q6ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5vcGVubWR4LnNlY3Vy
-        aXR5LnJlYWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290L3JlYWxtL1N0
-        YW5kYXJkL3ByaW5jaXBhbC9ndWVzdC5Vc2VyIj54cmk6Ly9Ab3Blbm1keCpv
-        cmcub3Blbm1keC5zZWN1cml0eS5yZWFsbTEvcHJvdmlkZXIvQ1JYL3NlZ21l
-        bnQvUm9vdC9yZWFsbS9TdGFuZGFyZC9wcmluY2lwYWwvZ3Vlc3QuVXNlcjwv
-        b3duaW5nVXNlcj4KCTxyZWdpb24zLz4KCTxleHRlcm5hbExpbmsvPgoJPHVz
-        ZXJTdHJpbmcyLz4KCTxjcmVhdGVkQXQ+MjAxMy0wNi0yNVQxMzo1NzoyNy40
-        ODhaPC9jcmVhdGVkQXQ+Cgk8cG9zdGFsQ2l0eT48IVtDREFUQVtHw7x0ZXJz
-        bG9oXV0+PC9wb3N0YWxDaXR5PgoJPHBvc3RhbFN0cmVldE51bWJlci8+Cgk8
-        YWNjZXNzTGV2ZWxCcm93c2U+MzwvYWNjZXNzTGV2ZWxCcm93c2U+Cgk8dXNl
-        ck51bWJlcjIvPgoJPGF1dGhvcml0eS8+Cgk8cG9zdGFsQ291bnR5Lz4KCTxj
-        YXRlZ29yeS8+Cgk8cG9zdGFsQWRkcmVzc0xpbmUvPgoJPHVzZXJEYXRlMS8+
-        Cgk8dXNlckRhdGVUaW1lNC8+Cgk8cG9zdGFsU3RyZWV0Lz4KPC9vcmcub3Bl
+        ZGFyZC9hY2NvdW50LzFhODZjNjU4LWRlNDctMTFlMi05ZDQwLTk5YmFlOTU0
+        NzJlNy9hZGRyZXNzLzE5Y2U0OTU1LWRlNDctMTFlMi05ZDQwLTk5YmFlOTU0
+        NzJlNyI+Cgk8dXNlckJvb2xlYW4zLz4KCTx1c2VyTnVtYmVyNC8+Cgk8b3du
+        aW5nR3JvdXA+CgkJPF9pdGVtIGhyZWY9Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4
+        MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5vcGVubWR4LnNlY3VyaXR5LnJlYWxt
+        MS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290L3JlYWxtL1N0YW5kYXJkL3By
+        aW5jaXBhbC9Vc2VycyI+eHJpOi8vQG9wZW5tZHgqb3JnLm9wZW5tZHguc2Vj
+        dXJpdHkucmVhbG0xL3Byb3ZpZGVyL0NSWC9zZWdtZW50L1Jvb3QvcmVhbG0v
+        U3RhbmRhcmQvcHJpbmNpcGFsL1VzZXJzPC9faXRlbT4KCQk8X2l0ZW0gaHJl
+        Zj0iaHR0cDovL2xvY2FsaG9zdDo4MDgwL29wZW5jcngtcmVzdC1DUlgvb3Jn
+        Lm9wZW5tZHguc2VjdXJpdHkucmVhbG0xL3Byb3ZpZGVyL0NSWC9zZWdtZW50
+        L1Jvb3QvcmVhbG0vU3RhbmRhcmQvcHJpbmNpcGFsL0FkbWluaXN0cmF0b3Jz
+        Ij54cmk6Ly9Ab3Blbm1keCpvcmcub3Blbm1keC5zZWN1cml0eS5yZWFsbTEv
+        cHJvdmlkZXIvQ1JYL3NlZ21lbnQvUm9vdC9yZWFsbS9TdGFuZGFyZC9wcmlu
+        Y2lwYWwvQWRtaW5pc3RyYXRvcnM8L19pdGVtPgoJPC9vd25pbmdHcm91cD4K
+        CTx1c2VyRGF0ZVRpbWUxLz4KCTx1c2VyU3RyaW5nMC8+Cgk8cG9zdGFsQWRk
+        cmVzc0xpbmUvPgoJPHVzZXJEYXRlVGltZTQvPgoJPHJlZ2lvblR5cGUzLz4K
+        CTx1c2VyRGF0ZVRpbWUzLz4KCTx1c2VyU3RyaW5nNC8+Cgk8cG9zdGFsTG9u
+        Z2l0dWRlLz4KCTxpZGVudGl0eT48IVtDREFUQVt4cmk6Ly9Ab3Blbm1keCpv
+        cmcub3BlbmNyeC5rZXJuZWwuYWNjb3VudDEvcHJvdmlkZXIvQ1JYL3NlZ21l
+        bnQvU3RhbmRhcmQvYWNjb3VudC8xYTg2YzY1OC1kZTQ3LTExZTItOWQ0MC05
+        OWJhZTk1NDcyZTcvYWRkcmVzcy8xOWNlNDk1NS1kZTQ3LTExZTItOWQ0MC05
+        OWJhZTk1NDcyZTddXT48L2lkZW50aXR5PgoJPHBvc3RhbFN0cmVldC8+Cgk8
+        cmVnaW9uMy8+Cgk8dXNlckRhdGUyLz4KCTx1c2VyRGF0ZTQvPgoJPHBvc3Rh
+        bENpdHk+PCFbQ0RBVEFbR8O8dGVyc2xvaF1dPjwvcG9zdGFsQ2l0eT4KCTxv
+        d25lcj4KCQk8X2l0ZW0+PCFbQ0RBVEFbU3RhbmRhcmQ6Z3Vlc3QuVXNlcl1d
+        PjwvX2l0ZW0+CgkJPF9pdGVtPjwhW0NEQVRBW1N0YW5kYXJkOlVzZXJzXV0+
+        PC9faXRlbT4KCQk8X2l0ZW0+PCFbQ0RBVEFbU3RhbmRhcmQ6QWRtaW5pc3Ry
+        YXRvcnNdXT48L19pdGVtPgoJPC9vd25lcj4KCTxkaXNhYmxlZFJlYXNvbi8+
+        Cgk8cG9zdGFsQ29kZT48IVtDREFUQVszMzMzMF1dPjwvcG9zdGFsQ29kZT4K
+        CTx1c2VyTnVtYmVyMy8+Cgk8dXNlckRhdGVUaW1lMC8+Cgk8cmVnaW9uVHlw
+        ZTEvPgoJPHVzZXJDb2RlMi8+Cgk8dXNlckJvb2xlYW40Lz4KCTxwb3N0YWxD
+        b3VudHJ5PjA8L3Bvc3RhbENvdW50cnk+Cgk8dXNlckRhdGUzLz4KCTx1c2Vy
+        Q29kZTAvPgoJPHVzZXJCb29sZWFuMC8+Cgk8dXNlck51bWJlcjIvPgoJPHBp
+        Y3R1cmVDb250ZW50TmFtZS8+Cgk8dXNlck51bWJlcjAvPgoJPHJlZ2lvbjIv
+        PgoJPGNhdGVnb3J5Lz4KCTxwaWN0dXJlQ29udGVudC8+Cgk8YXV0aG9yaXR5
+        Lz4KCTx1c2VyQm9vbGVhbjIvPgoJPGNyZWF0ZWRBdD4yMDEzLTA2LTI2VDEw
+        OjA1OjMzLjM5NFo8L2NyZWF0ZWRBdD4KCTxwb3N0YWxTdHJlZXROdW1iZXIv
+        PgoJPHVzZXJDb2RlMS8+Cgk8dXNlckNvZGUzLz4KCTxtb2RpZmllZEJ5PgoJ
+        CTxfaXRlbT48IVtDREFUQVtndWVzdF1dPjwvX2l0ZW0+Cgk8L21vZGlmaWVk
+        Qnk+Cgk8dXNlckRhdGUwLz4KCTxleHRlcm5hbExpbmsvPgoJPGlzTWFpbj5m
+        YWxzZTwvaXNNYWluPgoJPHVzZXJTdHJpbmcyLz4KCTxwb3N0YWxGcmVpZ2h0
+        VGVybXM+MDwvcG9zdGFsRnJlaWdodFRlcm1zPgoJPHVzZXJTdHJpbmcxLz4K
+        CTxwb3N0YWxVdGNPZmZzZXQ+MDwvcG9zdGFsVXRjT2Zmc2V0PgoJPHVzYWdl
+        Lz4KCTxwaWN0dXJlQ29udGVudE1pbWVUeXBlLz4KCTx1c2VyRGF0ZVRpbWUy
+        Lz4KCTxyZWdpb25UeXBlMi8+Cgk8dHovPgoJPGFjY2Vzc0xldmVsQnJvd3Nl
+        PjM8L2FjY2Vzc0xldmVsQnJvd3NlPgoJPHBvc3RhbENvdW50eS8+Cgk8ZGlz
+        YWJsZWQvPgoJPHBvc3RhbFN0YXRlLz4KCTxhY2Nlc3NMZXZlbERlbGV0ZT4y
+        PC9hY2Nlc3NMZXZlbERlbGV0ZT4KCTxvd25pbmdVc2VyIGhyZWY9Imh0dHA6
+        Ly9sb2NhbGhvc3Q6ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5vcGVubWR4
+        LnNlY3VyaXR5LnJlYWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290L3Jl
+        YWxtL1N0YW5kYXJkL3ByaW5jaXBhbC9ndWVzdC5Vc2VyIj54cmk6Ly9Ab3Bl
+        bm1keCpvcmcub3Blbm1keC5zZWN1cml0eS5yZWFsbTEvcHJvdmlkZXIvQ1JY
+        L3NlZ21lbnQvUm9vdC9yZWFsbS9TdGFuZGFyZC9wcmluY2lwYWwvZ3Vlc3Qu
+        VXNlcjwvb3duaW5nVXNlcj4KCTxhY2Nlc3NMZXZlbFVwZGF0ZT4yPC9hY2Nl
+        c3NMZXZlbFVwZGF0ZT4KCTx1c2VyU3RyaW5nMy8+Cgk8dXNlckRhdGUxLz4K
+        CTx1c2VyQ29kZTQvPgoJPHBpY3R1cmUvPgoJPHJlZ2lvbjEvPgoJPHVzZXJC
+        b29sZWFuMS8+Cgk8Y3JlYXRlZEJ5PgoJCTxfaXRlbT48IVtDREFUQVtndWVz
+        dF1dPjwvX2l0ZW0+Cgk8L2NyZWF0ZWRCeT4KCTxtb2RpZmllZEF0PjIwMTMt
+        MDYtMjZUMTA6MDU6MzMuMzk0WjwvbW9kaWZpZWRBdD4KCTxwb3N0YWxMYXRp
+        dHVkZS8+Cgk8dXNlck51bWJlcjEvPgoJPGJ1aWxkaW5nLz4KPC9vcmcub3Bl
         bmNyeC5rZXJuZWwuYWNjb3VudDEuUG9zdGFsQWRkcmVzcz4=
     http_version: 
-  recorded_at: Tue, 25 Jun 2013 13:57:27 GMT
+  recorded_at: Wed, 26 Jun 2013 10:05:34 GMT
 - request:
     method: get
-    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/2640d6e5-db3f-11e2-ac29-97faeed920dd/address?
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/1a86c658-de47-11e2-9d40-99bae95472e7/address?
     body:
       encoding: US-ASCII
       string: ''
@@ -168,13 +168,13 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=727C94F76E290767608EC41E1CB0363C; Path=/opencrx-rest-CRX/; HttpOnly
+      - JSESSIONID=7C680F499C180B32B7761993CF0AFB3A; Path=/opencrx-rest-CRX/; HttpOnly
       Content-Type:
       - text/xml;charset=UTF-8
       Transfer-Encoding:
       - chunked
       Date:
-      - Tue, 25 Jun 2013 13:57:27 GMT
+      - Wed, 26 Jun 2013 10:05:33 GMT
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -182,77 +182,104 @@ http_interactions:
         cGVubWR4Lmtlcm5lbC5SZXN1bHRTZXQgaHJlZj0iaHR0cDovL2xvY2FsaG9z
         dDo4MDgwL29wZW5jcngtcmVzdC1DUlgvb3JnLm9wZW5jcngua2VybmVsLmFj
         Y291bnQxL3Byb3ZpZGVyL0NSWC9zZWdtZW50L1N0YW5kYXJkL2FjY291bnQv
-        MjY0MGQ2ZTUtZGIzZi0xMWUyLWFjMjktOTdmYWVlZDkyMGRkL2FkZHJlc3Mi
+        MWE4NmM2NTgtZGU0Ny0xMWUyLTlkNDAtOTliYWU5NTQ3MmU3L2FkZHJlc3Mi
         IGhhc01vcmU9ImZhbHNlIiB0b3RhbD0iMSI+Cgk8b3JnLm9wZW5jcngua2Vy
         bmVsLmFjY291bnQxLlBvc3RhbEFkZHJlc3MgaHJlZj0iaHR0cDovL2xvY2Fs
         aG9zdDo4MDgwL29wZW5jcngtcmVzdC1DUlgvb3JnLm9wZW5jcngua2VybmVs
         LmFjY291bnQxL3Byb3ZpZGVyL0NSWC9zZWdtZW50L1N0YW5kYXJkL2FjY291
-        bnQvMjY0MGQ2ZTUtZGIzZi0xMWUyLWFjMjktOTdmYWVlZDkyMGRkL2FkZHJl
-        c3MvMDA5ODQ0MmQtZGIzZi0xMWUyLWFjMjktOTdmYWVlZDkyMGRkIiB2ZXJz
-        aW9uPSJiVzlrYVdacFpXUkJkRDB5TURFekxUQTJMVEkxVkRFek9qVTNPakkz
-        TGpRNE9EQXdNRm89Ij4KCQk8dXNlclN0cmluZzQvPgoJCTxwb3N0YWxMb25n
-        aXR1ZGUvPgoJCTxyZWdpb24xLz4KCQk8cG9zdGFsU3RhdGUvPgoJCTxwb3N0
-        YWxVdGNPZmZzZXQ+MDwvcG9zdGFsVXRjT2Zmc2V0PgoJCTxidWlsZGluZy8+
-        CgkJPHJlZ2lvblR5cGUzLz4KCQk8cGljdHVyZS8+CgkJPHJlZ2lvblR5cGUy
-        Lz4KCQk8ZGlzYWJsZWQvPgoJCTxwb3N0YWxGcmVpZ2h0VGVybXM+MDwvcG9z
-        dGFsRnJlaWdodFRlcm1zPgoJCTx1c2VyQm9vbGVhbjMvPgoJCTx1c2VyTnVt
-        YmVyMS8+CgkJPHBvc3RhbENvZGU+PCFbQ0RBVEFbMzMzMzBdXT48L3Bvc3Rh
-        bENvZGU+CgkJPHBpY3R1cmVDb250ZW50TmFtZS8+CgkJPHVzYWdlLz4KCQk8
-        cGljdHVyZUNvbnRlbnQvPgoJCTxkaXNhYmxlZFJlYXNvbi8+CgkJPHVzZXJE
-        YXRlVGltZTAvPgoJCTxtb2RpZmllZEF0PjIwMTMtMDYtMjVUMTM6NTc6Mjcu
-        NDg4WjwvbW9kaWZpZWRBdD4KCQk8cmVnaW9uVHlwZTEvPgoJCTx1c2VyQ29k
-        ZTAvPgoJCTx1c2VyRGF0ZVRpbWUzLz4KCQk8cG9zdGFsTGF0aXR1ZGUvPgoJ
-        CTx1c2VyTnVtYmVyMy8+CgkJPGFjY2Vzc0xldmVsRGVsZXRlPjI8L2FjY2Vz
-        c0xldmVsRGVsZXRlPgoJCTxvd25lcj4KCQkJPF9pdGVtPjwhW0NEQVRBW1N0
-        YW5kYXJkOmd1ZXN0LlVzZXJdXT48L19pdGVtPgoJCQk8X2l0ZW0+PCFbQ0RB
-        VEFbU3RhbmRhcmQ6VXNlcnNdXT48L19pdGVtPgoJCQk8X2l0ZW0+PCFbQ0RB
-        VEFbU3RhbmRhcmQ6QWRtaW5pc3RyYXRvcnNdXT48L19pdGVtPgoJCTwvb3du
-        ZXI+CgkJPGFjY2Vzc0xldmVsVXBkYXRlPjI8L2FjY2Vzc0xldmVsVXBkYXRl
-        PgoJCTx0ei8+CgkJPHVzZXJCb29sZWFuNC8+CgkJPHVzZXJTdHJpbmcxLz4K
-        CQk8dXNlckNvZGUzLz4KCQk8cmVnaW9uMi8+CgkJPHVzZXJDb2RlMS8+CgkJ
-        PHVzZXJEYXRlVGltZTEvPgoJCTxwb3N0YWxDb3VudHJ5PjA8L3Bvc3RhbENv
-        dW50cnk+CgkJPHVzZXJCb29sZWFuMi8+CgkJPHBpY3R1cmVDb250ZW50TWlt
-        ZVR5cGUvPgoJCTxpc01haW4+ZmFsc2U8L2lzTWFpbj4KCQk8dXNlck51bWJl
-        cjQvPgoJCTx1c2VyU3RyaW5nMy8+CgkJPGlkZW50aXR5PjwhW0NEQVRBW3hy
-        aTovL0BvcGVubWR4Km9yZy5vcGVuY3J4Lmtlcm5lbC5hY2NvdW50MS9wcm92
-        aWRlci9DUlgvc2VnbWVudC9TdGFuZGFyZC9hY2NvdW50LzI2NDBkNmU1LWRi
-        M2YtMTFlMi1hYzI5LTk3ZmFlZWQ5MjBkZC9hZGRyZXNzLzAwOTg0NDJkLWRi
-        M2YtMTFlMi1hYzI5LTk3ZmFlZWQ5MjBkZF1dPjwvaWRlbnRpdHk+CgkJPHVz
-        ZXJOdW1iZXIwLz4KCQk8dXNlckNvZGUyLz4KCQk8dXNlckNvZGU0Lz4KCQk8
-        dXNlckJvb2xlYW4wLz4KCQk8dXNlckRhdGU0Lz4KCQk8b3duaW5nR3JvdXA+
-        CgkJCTxfaXRlbSBocmVmPSJodHRwOi8vbG9jYWxob3N0OjgwODAvb3BlbmNy
-        eC1yZXN0LUNSWC9vcmcub3Blbm1keC5zZWN1cml0eS5yZWFsbTEvcHJvdmlk
-        ZXIvQ1JYL3NlZ21lbnQvUm9vdC9yZWFsbS9TdGFuZGFyZC9wcmluY2lwYWwv
-        VXNlcnMiPnhyaTovL0BvcGVubWR4Km9yZy5vcGVubWR4LnNlY3VyaXR5LnJl
-        YWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290L3JlYWxtL1N0YW5kYXJk
-        L3ByaW5jaXBhbC9Vc2VyczwvX2l0ZW0+CgkJCTxfaXRlbSBocmVmPSJodHRw
-        Oi8vbG9jYWxob3N0OjgwODAvb3BlbmNyeC1yZXN0LUNSWC9vcmcub3Blbm1k
-        eC5zZWN1cml0eS5yZWFsbTEvcHJvdmlkZXIvQ1JYL3NlZ21lbnQvUm9vdC9y
-        ZWFsbS9TdGFuZGFyZC9wcmluY2lwYWwvQWRtaW5pc3RyYXRvcnMiPnhyaTov
-        L0BvcGVubWR4Km9yZy5vcGVubWR4LnNlY3VyaXR5LnJlYWxtMS9wcm92aWRl
+        bnQvMWE4NmM2NTgtZGU0Ny0xMWUyLTlkNDAtOTliYWU5NTQ3MmU3L2FkZHJl
+        c3MvMTljZTQ5NTUtZGU0Ny0xMWUyLTlkNDAtOTliYWU5NTQ3MmU3IiB2ZXJz
+        aW9uPSJiVzlrYVdacFpXUkJkRDB5TURFekxUQTJMVEkyVkRFd09qQTFPak16
+        TGpNNU5EQXdNRm89Ij4KCQk8dXNlckJvb2xlYW4zLz4KCQk8dXNlck51bWJl
+        cjQvPgoJCTxvd25pbmdHcm91cD4KCQkJPF9pdGVtIGhyZWY9Imh0dHA6Ly9s
+        b2NhbGhvc3Q6ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5vcGVubWR4LnNl
+        Y3VyaXR5LnJlYWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290L3JlYWxt
+        L1N0YW5kYXJkL3ByaW5jaXBhbC9Vc2VycyI+eHJpOi8vQG9wZW5tZHgqb3Jn
+        Lm9wZW5tZHguc2VjdXJpdHkucmVhbG0xL3Byb3ZpZGVyL0NSWC9zZWdtZW50
+        L1Jvb3QvcmVhbG0vU3RhbmRhcmQvcHJpbmNpcGFsL1VzZXJzPC9faXRlbT4K
+        CQkJPF9pdGVtIGhyZWY9Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9vcGVuY3J4
+        LXJlc3QtQ1JYL29yZy5vcGVubWR4LnNlY3VyaXR5LnJlYWxtMS9wcm92aWRl
         ci9DUlgvc2VnbWVudC9Sb290L3JlYWxtL1N0YW5kYXJkL3ByaW5jaXBhbC9B
-        ZG1pbmlzdHJhdG9yczwvX2l0ZW0+CgkJPC9vd25pbmdHcm91cD4KCQk8dXNl
-        ckRhdGUwLz4KCQk8dXNlckRhdGVUaW1lMi8+CgkJPHVzZXJEYXRlMy8+CgkJ
-        PHVzZXJEYXRlMi8+CgkJPGNyZWF0ZWRCeT4KCQkJPF9pdGVtPjwhW0NEQVRB
-        W2d1ZXN0XV0+PC9faXRlbT4KCQk8L2NyZWF0ZWRCeT4KCQk8dXNlckJvb2xl
-        YW4xLz4KCQk8dXNlclN0cmluZzAvPgoJCTxtb2RpZmllZEJ5PgoJCQk8X2l0
-        ZW0+PCFbQ0RBVEFbZ3Vlc3RdXT48L19pdGVtPgoJCTwvbW9kaWZpZWRCeT4K
-        CQk8b3duaW5nVXNlciBocmVmPSJodHRwOi8vbG9jYWxob3N0OjgwODAvb3Bl
-        bmNyeC1yZXN0LUNSWC9vcmcub3Blbm1keC5zZWN1cml0eS5yZWFsbTEvcHJv
-        dmlkZXIvQ1JYL3NlZ21lbnQvUm9vdC9yZWFsbS9TdGFuZGFyZC9wcmluY2lw
-        YWwvZ3Vlc3QuVXNlciI+eHJpOi8vQG9wZW5tZHgqb3JnLm9wZW5tZHguc2Vj
+        ZG1pbmlzdHJhdG9ycyI+eHJpOi8vQG9wZW5tZHgqb3JnLm9wZW5tZHguc2Vj
         dXJpdHkucmVhbG0xL3Byb3ZpZGVyL0NSWC9zZWdtZW50L1Jvb3QvcmVhbG0v
-        U3RhbmRhcmQvcHJpbmNpcGFsL2d1ZXN0LlVzZXI8L293bmluZ1VzZXI+CgkJ
-        PHJlZ2lvbjMvPgoJCTxleHRlcm5hbExpbmsvPgoJCTx1c2VyU3RyaW5nMi8+
-        CgkJPGNyZWF0ZWRBdD4yMDEzLTA2LTI1VDEzOjU3OjI3LjQ4OFo8L2NyZWF0
-        ZWRBdD4KCQk8cG9zdGFsQ2l0eT48IVtDREFUQVtHw7x0ZXJzbG9oXV0+PC9w
-        b3N0YWxDaXR5PgoJCTxwb3N0YWxTdHJlZXROdW1iZXIvPgoJCTxhY2Nlc3NM
-        ZXZlbEJyb3dzZT4zPC9hY2Nlc3NMZXZlbEJyb3dzZT4KCQk8dXNlck51bWJl
-        cjIvPgoJCTxhdXRob3JpdHkvPgoJCTxwb3N0YWxDb3VudHkvPgoJCTxjYXRl
-        Z29yeS8+CgkJPHBvc3RhbEFkZHJlc3NMaW5lLz4KCQk8dXNlckRhdGUxLz4K
-        CQk8dXNlckRhdGVUaW1lNC8+CgkJPHBvc3RhbFN0cmVldC8+Cgk8L29yZy5v
+        U3RhbmRhcmQvcHJpbmNpcGFsL0FkbWluaXN0cmF0b3JzPC9faXRlbT4KCQk8
+        L293bmluZ0dyb3VwPgoJCTx1c2VyRGF0ZVRpbWUxLz4KCQk8dXNlclN0cmlu
+        ZzAvPgoJCTxwb3N0YWxBZGRyZXNzTGluZS8+CgkJPHVzZXJEYXRlVGltZTQv
+        PgoJCTxyZWdpb25UeXBlMy8+CgkJPHVzZXJEYXRlVGltZTMvPgoJCTx1c2Vy
+        U3RyaW5nNC8+CgkJPHBvc3RhbExvbmdpdHVkZS8+CgkJPGlkZW50aXR5Pjwh
+        W0NEQVRBW3hyaTovL0BvcGVubWR4Km9yZy5vcGVuY3J4Lmtlcm5lbC5hY2Nv
+        dW50MS9wcm92aWRlci9DUlgvc2VnbWVudC9TdGFuZGFyZC9hY2NvdW50LzFh
+        ODZjNjU4LWRlNDctMTFlMi05ZDQwLTk5YmFlOTU0NzJlNy9hZGRyZXNzLzE5
+        Y2U0OTU1LWRlNDctMTFlMi05ZDQwLTk5YmFlOTU0NzJlN11dPjwvaWRlbnRp
+        dHk+CgkJPHBvc3RhbFN0cmVldC8+CgkJPHJlZ2lvbjMvPgoJCTx1c2VyRGF0
+        ZTIvPgoJCTx1c2VyRGF0ZTQvPgoJCTxwb3N0YWxDaXR5PjwhW0NEQVRBW0fD
+        vHRlcnNsb2hdXT48L3Bvc3RhbENpdHk+CgkJPG93bmVyPgoJCQk8X2l0ZW0+
+        PCFbQ0RBVEFbU3RhbmRhcmQ6Z3Vlc3QuVXNlcl1dPjwvX2l0ZW0+CgkJCTxf
+        aXRlbT48IVtDREFUQVtTdGFuZGFyZDpVc2Vyc11dPjwvX2l0ZW0+CgkJCTxf
+        aXRlbT48IVtDREFUQVtTdGFuZGFyZDpBZG1pbmlzdHJhdG9yc11dPjwvX2l0
+        ZW0+CgkJPC9vd25lcj4KCQk8ZGlzYWJsZWRSZWFzb24vPgoJCTxwb3N0YWxD
+        b2RlPjwhW0NEQVRBWzMzMzMwXV0+PC9wb3N0YWxDb2RlPgoJCTx1c2VyTnVt
+        YmVyMy8+CgkJPHVzZXJEYXRlVGltZTAvPgoJCTxyZWdpb25UeXBlMS8+CgkJ
+        PHVzZXJDb2RlMi8+CgkJPHVzZXJCb29sZWFuNC8+CgkJPHBvc3RhbENvdW50
+        cnk+MDwvcG9zdGFsQ291bnRyeT4KCQk8dXNlckRhdGUzLz4KCQk8dXNlckNv
+        ZGUwLz4KCQk8dXNlckJvb2xlYW4wLz4KCQk8dXNlck51bWJlcjIvPgoJCTxw
+        aWN0dXJlQ29udGVudE5hbWUvPgoJCTx1c2VyTnVtYmVyMC8+CgkJPHJlZ2lv
+        bjIvPgoJCTxjYXRlZ29yeS8+CgkJPHBpY3R1cmVDb250ZW50Lz4KCQk8YXV0
+        aG9yaXR5Lz4KCQk8dXNlckJvb2xlYW4yLz4KCQk8Y3JlYXRlZEF0PjIwMTMt
+        MDYtMjZUMTA6MDU6MzMuMzk0WjwvY3JlYXRlZEF0PgoJCTxwb3N0YWxTdHJl
+        ZXROdW1iZXIvPgoJCTx1c2VyQ29kZTEvPgoJCTx1c2VyQ29kZTMvPgoJCTxt
+        b2RpZmllZEJ5PgoJCQk8X2l0ZW0+PCFbQ0RBVEFbZ3Vlc3RdXT48L19pdGVt
+        PgoJCTwvbW9kaWZpZWRCeT4KCQk8dXNlckRhdGUwLz4KCQk8ZXh0ZXJuYWxM
+        aW5rLz4KCQk8aXNNYWluPmZhbHNlPC9pc01haW4+CgkJPHVzZXJTdHJpbmcy
+        Lz4KCQk8cG9zdGFsRnJlaWdodFRlcm1zPjA8L3Bvc3RhbEZyZWlnaHRUZXJt
+        cz4KCQk8dXNlclN0cmluZzEvPgoJCTxwb3N0YWxVdGNPZmZzZXQ+MDwvcG9z
+        dGFsVXRjT2Zmc2V0PgoJCTx1c2FnZS8+CgkJPHBpY3R1cmVDb250ZW50TWlt
+        ZVR5cGUvPgoJCTx1c2VyRGF0ZVRpbWUyLz4KCQk8cmVnaW9uVHlwZTIvPgoJ
+        CTx0ei8+CgkJPGFjY2Vzc0xldmVsQnJvd3NlPjM8L2FjY2Vzc0xldmVsQnJv
+        d3NlPgoJCTxwb3N0YWxDb3VudHkvPgoJCTxkaXNhYmxlZC8+CgkJPHBvc3Rh
+        bFN0YXRlLz4KCQk8YWNjZXNzTGV2ZWxEZWxldGU+MjwvYWNjZXNzTGV2ZWxE
+        ZWxldGU+CgkJPG93bmluZ1VzZXIgaHJlZj0iaHR0cDovL2xvY2FsaG9zdDo4
+        MDgwL29wZW5jcngtcmVzdC1DUlgvb3JnLm9wZW5tZHguc2VjdXJpdHkucmVh
+        bG0xL3Byb3ZpZGVyL0NSWC9zZWdtZW50L1Jvb3QvcmVhbG0vU3RhbmRhcmQv
+        cHJpbmNpcGFsL2d1ZXN0LlVzZXIiPnhyaTovL0BvcGVubWR4Km9yZy5vcGVu
+        bWR4LnNlY3VyaXR5LnJlYWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290
+        L3JlYWxtL1N0YW5kYXJkL3ByaW5jaXBhbC9ndWVzdC5Vc2VyPC9vd25pbmdV
+        c2VyPgoJCTxhY2Nlc3NMZXZlbFVwZGF0ZT4yPC9hY2Nlc3NMZXZlbFVwZGF0
+        ZT4KCQk8dXNlclN0cmluZzMvPgoJCTx1c2VyRGF0ZTEvPgoJCTx1c2VyQ29k
+        ZTQvPgoJCTxwaWN0dXJlLz4KCQk8cmVnaW9uMS8+CgkJPHVzZXJCb29sZWFu
+        MS8+CgkJPGNyZWF0ZWRCeT4KCQkJPF9pdGVtPjwhW0NEQVRBW2d1ZXN0XV0+
+        PC9faXRlbT4KCQk8L2NyZWF0ZWRCeT4KCQk8bW9kaWZpZWRBdD4yMDEzLTA2
+        LTI2VDEwOjA1OjMzLjM5NFo8L21vZGlmaWVkQXQ+CgkJPHBvc3RhbExhdGl0
+        dWRlLz4KCQk8dXNlck51bWJlcjEvPgoJCTxidWlsZGluZy8+Cgk8L29yZy5v
         cGVuY3J4Lmtlcm5lbC5hY2NvdW50MS5Qb3N0YWxBZGRyZXNzPgo8L29yZy5v
         cGVubWR4Lmtlcm5lbC5SZXN1bHRTZXQ+
     http_version: 
-  recorded_at: Tue, 25 Jun 2013 13:57:27 GMT
+  recorded_at: Wed, 26 Jun 2013 10:05:34 GMT
+- request:
+    method: delete
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/1a86c658-de47-11e2-9d40-99bae95472e7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=394E36D27D5E9D459EC48DD5BBDA9028; Path=/opencrx-rest-CRX/; HttpOnly
+      Date:
+      - Wed, 26 Jun 2013 10:05:33 GMT
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 26 Jun 2013 10:05:35 GMT
 recorded_with: VCR 2.5.0

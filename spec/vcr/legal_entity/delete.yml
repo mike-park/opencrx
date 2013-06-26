@@ -1,0 +1,279 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+        <org.opencrx.kernel.account1.LegalEntity>
+          <name>AA äöëïöü</name>
+        </org.opencrx.kernel.account1.LegalEntity>
+    headers:
+      Accept:
+      - text/xml
+      Content-Type:
+      - text/xml;charset=UTF-8
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=4412960CA22C26B0BFBC7B13B97A5A21; Path=/opencrx-rest-CRX/; HttpOnly
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Wed, 26 Jun 2013 10:05:30 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG9yZy5v
+        cGVuY3J4Lmtlcm5lbC5hY2NvdW50MS5MZWdhbEVudGl0eSBocmVmPSJodHRw
+        Oi8vbG9jYWxob3N0OjgwODAvb3BlbmNyeC1yZXN0LUNSWC9vcmcub3BlbmNy
+        eC5rZXJuZWwuYWNjb3VudDEvcHJvdmlkZXIvQ1JYL3NlZ21lbnQvU3RhbmRh
+        cmQvYWNjb3VudC8xYTg2YzY0YS1kZTQ3LTExZTItOWQ0MC05OWJhZTk1NDcy
+        ZTciPgoJPHVzZXJCb29sZWFuMy8+Cgk8ZXh0RGF0ZTgvPgoJPHVzZXJOdW1i
+        ZXI0Lz4KCTx1c2VyRGF0ZVRpbWUxLz4KCTxleHRDb2RlNC8+Cgk8ZXh0Q29k
+        ZTE3Lz4KCTxleHRDb2RlMjkvPgoJPGV4dENvZGUyMC8+Cgk8bWFzdGVyLz4K
+        CTx1c2VyRGF0ZVRpbWUzLz4KCTxleHRTdHJpbmczLz4KCTxleHREYXRlMC8+
+        Cgk8ZXh0Q29kZTE0Lz4KCTx1c2VyU3RyaW5nNC8+Cgk8ZXh0RGF0ZVRpbWUz
+        Lz4KCTxpZGVudGl0eT48IVtDREFUQVt4cmk6Ly9Ab3Blbm1keCpvcmcub3Bl
+        bmNyeC5rZXJuZWwuYWNjb3VudDEvcHJvdmlkZXIvQ1JYL3NlZ21lbnQvU3Rh
+        bmRhcmQvYWNjb3VudC8xYTg2YzY0YS1kZTQ3LTExZTItOWQ0MC05OWJhZTk1
+        NDcyZTddXT48L2lkZW50aXR5PgoJPGV4dENvZGUzLz4KCTxhY2NvdW50VHlw
+        ZS8+Cgk8ZXh0Qm9vbGVhbjUvPgoJPGV4dEJvb2xlYW40Lz4KCTxleHRDb2Rl
+        MTYvPgoJPGV4dERhdGU5Lz4KCTx1c2VyRGF0ZTIvPgoJPHVzZXJEYXRlNC8+
+        Cgk8ZXh0U3RyaW5nNi8+Cgk8ZGlzYWJsZWRSZWFzb24vPgoJPHVzZXJOdW1i
+        ZXIzLz4KCTxleHRCb29sZWFuMy8+Cgk8ZXh0RGF0ZVRpbWUxLz4KCTx1c2Vy
+        Q29kZTIvPgoJPGV4dENvZGU5Lz4KCTx0aWNrZXJTeW1ib2wvPgoJPHVzZXJD
+        b2RlMC8+Cgk8ZXh0Qm9vbGVhbjEvPgoJPGV4dE51bWJlcjEvPgoJPGV4dE51
+        bWJlcjkvPgoJPHVzZXJCb29sZWFuMC8+Cgk8cGljdHVyZUNvbnRlbnROYW1l
+        Lz4KCTx1c2VyTnVtYmVyMC8+Cgk8ZXh0U3RyaW5nMS8+Cgk8ZXh0Q29kZTUv
+        PgoJPGV4dERhdGU0Lz4KCTx1c2VyQ29kZTMvPgoJPGNyZWF0ZWRBdD4yMDEz
+        LTA2LTI2VDEwOjA1OjMxLjIwMlo8L2NyZWF0ZWRBdD4KCTxleHREYXRlVGlt
+        ZTYvPgoJPGV4dFN0cmluZzgvPgoJPGV4dENvZGUyNS8+Cgk8dXNlckRhdGUw
+        Lz4KCTxudW1iZXJPZkVtcGxveWVlc0NhdGVnb3J5PjA8L251bWJlck9mRW1w
+        bG95ZWVzQ2F0ZWdvcnk+Cgk8Y29udGFjdC8+Cgk8dXNlclN0cmluZzIvPgoJ
+        PGV4dERhdGVUaW1lMi8+Cgk8ZXh0Q29kZTIxLz4KCTxleHREYXRlVGltZTcv
+        PgoJPHVzZXJTdHJpbmcxLz4KCTxhY2NvdW50U3RhdGU+MDwvYWNjb3VudFN0
+        YXRlPgoJPGV4dENvZGUwLz4KCTxwaWN0dXJlQ29udGVudE1pbWVUeXBlLz4K
+        CTxmdWxsTmFtZT48IVtDREFUQVtBQSDDpMO2w6vDr8O2w7xdXT48L2Z1bGxO
+        YW1lPgoJPGV4dENvZGU2Lz4KCTxleHREYXRlVGltZTQvPgoJPGFjY2Vzc0xl
+        dmVsRGVsZXRlPjI8L2FjY2Vzc0xldmVsRGVsZXRlPgoJPGV4dENvZGU3Lz4K
+        CTxhY2Nlc3NMZXZlbFVwZGF0ZT4yPC9hY2Nlc3NMZXZlbFVwZGF0ZT4KCTx1
+        c2VyQ29kZTQvPgoJPGV4dENvZGUyNy8+Cgk8ZXh0Qm9vbGVhbjgvPgoJPHBp
+        Y3R1cmUvPgoJPGRlc2NyaXB0aW9uLz4KCTx1c2VyQm9vbGVhbjEvPgoJPGV4
+        dERhdGU3Lz4KCTxtb2RpZmllZEF0PjIwMTMtMDYtMjZUMTA6MDU6MzEuMjAy
+        WjwvbW9kaWZpZWRBdD4KCTx1c2VyTnVtYmVyMS8+Cgk8ZXh0TnVtYmVyNi8+
+        Cgk8ZXh0RGF0ZVRpbWU1Lz4KCTxleHRDb2RlMTEvPgoJPG93bmluZ0dyb3Vw
+        PgoJCTxfaXRlbSBocmVmPSJodHRwOi8vbG9jYWxob3N0OjgwODAvb3BlbmNy
+        eC1yZXN0LUNSWC9vcmcub3Blbm1keC5zZWN1cml0eS5yZWFsbTEvcHJvdmlk
+        ZXIvQ1JYL3NlZ21lbnQvUm9vdC9yZWFsbS9TdGFuZGFyZC9wcmluY2lwYWwv
+        VXNlcnMiPnhyaTovL0BvcGVubWR4Km9yZy5vcGVubWR4LnNlY3VyaXR5LnJl
+        YWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290L3JlYWxtL1N0YW5kYXJk
+        L3ByaW5jaXBhbC9Vc2VyczwvX2l0ZW0+CgkJPF9pdGVtIGhyZWY9Imh0dHA6
+        Ly9sb2NhbGhvc3Q6ODA4MC9vcGVuY3J4LXJlc3QtQ1JYL29yZy5vcGVubWR4
+        LnNlY3VyaXR5LnJlYWxtMS9wcm92aWRlci9DUlgvc2VnbWVudC9Sb290L3Jl
+        YWxtL1N0YW5kYXJkL3ByaW5jaXBhbC9BZG1pbmlzdHJhdG9ycyI+eHJpOi8v
+        QG9wZW5tZHgqb3JnLm9wZW5tZHguc2VjdXJpdHkucmVhbG0xL3Byb3ZpZGVy
+        L0NSWC9zZWdtZW50L1Jvb3QvcmVhbG0vU3RhbmRhcmQvcHJpbmNpcGFsL0Fk
+        bWluaXN0cmF0b3JzPC9faXRlbT4KCTwvb3duaW5nR3JvdXA+Cgk8dXNlclN0
+        cmluZzAvPgoJPHN0b2NrRXhjaGFuZ2UvPgoJPHVzZXJEYXRlVGltZTQvPgoJ
+        PGV4dEJvb2xlYW45Lz4KCTxleHRDb2RlMTIvPgoJPHZjYXJkPjwhW0NEQVRB
+        W0JFR0lOOlZDQVJEClZFUlNJT046My4wClVJRDozRUlTUUhOSUQ1NVVRRzBJ
+        UlJDSENSRU5CClJFVjoyMDEzMDYyNlQxMDA1MzFaCk46QUEgw6TDtsOrw6/D
+        tsO8CkZOOkFBIMOkw7bDq8Ovw7bDvApFTkQ6VkNBUkQKXV0+PC92Y2FyZD4K
+        CTxleHREYXRlMS8+Cgk8ZXh0U3RyaW5nNS8+Cgk8aW5kdXN0cnk+MDwvaW5k
+        dXN0cnk+Cgk8ZXh0U3RyaW5nOS8+Cgk8YWNjb3VudFJhdGluZz4wPC9hY2Nv
+        dW50UmF0aW5nPgoJPGV4dERhdGU1Lz4KCTxleHROdW1iZXIwLz4KCTxleHRT
+        dHJpbmcwLz4KCTxleHROdW1iZXI0Lz4KCTxvd25lcj4KCQk8X2l0ZW0+PCFb
+        Q0RBVEFbU3RhbmRhcmQ6Z3Vlc3QuVXNlcl1dPjwvX2l0ZW0+CgkJPF9pdGVt
+        PjwhW0NEQVRBW1N0YW5kYXJkOlVzZXJzXV0+PC9faXRlbT4KCQk8X2l0ZW0+
+        PCFbQ0RBVEFbU3RhbmRhcmQ6QWRtaW5pc3RyYXRvcnNdXT48L19pdGVtPgoJ
+        PC9vd25lcj4KCTxleHRCb29sZWFuMi8+Cgk8bnVtYmVyT2ZFbXBsb3llZXMv
+        PgoJPGV4dENvZGUxMy8+Cgk8bmFtZT48IVtDREFUQVtBQSDDpMO2w6vDr8O2
+        w7xdXT48L25hbWU+Cgk8dXNlckRhdGVUaW1lMC8+Cgk8ZXh0U3RyaW5nNC8+
+        Cgk8ZXh0Qm9vbGVhbjYvPgoJPGV4dENvZGUyOC8+Cgk8dXNlckJvb2xlYW40
+        Lz4KCTx1c2VyRGF0ZTMvPgoJPGV4dENvZGU4Lz4KCTxleHRDb2RlMjYvPgoJ
+        PGFsaWFzTmFtZS8+Cgk8dXNlck51bWJlcjIvPgoJPGV4dE51bWJlcjcvPgoJ
+        PGV4dERhdGVUaW1lMC8+Cgk8Y2F0ZWdvcnkvPgoJPGV4dE51bWJlcjgvPgoJ
+        PGV4dENvZGUxLz4KCTxwaWN0dXJlQ29udGVudC8+Cgk8ZXh0TnVtYmVyMi8+
+        Cgk8dXNlckJvb2xlYW4yLz4KCTxleHRDb2RlMi8+Cgk8ZXh0RGF0ZTYvPgoJ
+        PHVzZXJDb2RlMS8+Cgk8bW9kaWZpZWRCeT4KCQk8X2l0ZW0+PCFbQ0RBVEFb
+        Z3Vlc3RdXT48L19pdGVtPgoJPC9tb2RpZmllZEJ5PgoJPGV4dGVybmFsTGlu
+        az4KCQk8X2l0ZW0+PCFbQ0RBVEFbVkNBUkQ6M0VJU1FITklENTVVUUcwSVJS
+        Q0hDUkVOQl1dPjwvX2l0ZW0+Cgk8L2V4dGVybmFsTGluaz4KCTxleHREYXRl
+        My8+Cgk8ZXh0Q29kZTI0Lz4KCTxleHREYXRlVGltZTkvPgoJPHVzZXJEYXRl
+        VGltZTIvPgoJPGV4dENvZGUxOS8+Cgk8ZXh0Qm9vbGVhbjAvPgoJPGFjY2Vz
+        c0xldmVsQnJvd3NlPjM8L2FjY2Vzc0xldmVsQnJvd3NlPgoJPGV4dENvZGUx
+        MC8+Cgk8ZGlzYWJsZWQvPgoJPG93bmluZ1VzZXIgaHJlZj0iaHR0cDovL2xv
+        Y2FsaG9zdDo4MDgwL29wZW5jcngtcmVzdC1DUlgvb3JnLm9wZW5tZHguc2Vj
+        dXJpdHkucmVhbG0xL3Byb3ZpZGVyL0NSWC9zZWdtZW50L1Jvb3QvcmVhbG0v
+        U3RhbmRhcmQvcHJpbmNpcGFsL2d1ZXN0LlVzZXIiPnhyaTovL0BvcGVubWR4
+        Km9yZy5vcGVubWR4LnNlY3VyaXR5LnJlYWxtMS9wcm92aWRlci9DUlgvc2Vn
+        bWVudC9Sb290L3JlYWxtL1N0YW5kYXJkL3ByaW5jaXBhbC9ndWVzdC5Vc2Vy
+        PC9vd25pbmdVc2VyPgoJPHVzZXJTdHJpbmczLz4KCTx1c2VyRGF0ZTEvPgoJ
+        PGV4dERhdGUyLz4KCTxvcmdhbml6YXRpb25hbFVuaXQvPgoJPGV4dENvZGUx
+        OC8+Cgk8ZXh0RGF0ZVRpbWU4Lz4KCTxwYXJ0bmVyLz4KCTxjcmVhdGVkQnk+
+        CgkJPF9pdGVtPjwhW0NEQVRBW2d1ZXN0XV0+PC9faXRlbT4KCTwvY3JlYXRl
+        ZEJ5PgoJPGV4dFN0cmluZzIvPgoJPGV4dENvZGUxNS8+Cgk8YWNjb3VudENh
+        dGVnb3J5Lz4KCTxidXNpbmVzc1R5cGUvPgoJPGV4dENvZGUyMi8+Cgk8ZXh0
+        U3RyaW5nNy8+Cgk8ZXh0TnVtYmVyMy8+Cgk8ZXh0TnVtYmVyNS8+Cgk8ZXh0
+        Q29kZTIzLz4KCTxleHRCb29sZWFuNy8+Cjwvb3JnLm9wZW5jcngua2VybmVs
+        LmFjY291bnQxLkxlZ2FsRW50aXR5Pg==
+    http_version: 
+  recorded_at: Wed, 26 Jun 2013 10:05:32 GMT
+- request:
+    method: delete
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/1a86c64a-de47-11e2-9d40-99bae95472e7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=E49D146F8C1F58E55F28C9844089B285; Path=/opencrx-rest-CRX/; HttpOnly
+      Date:
+      - Wed, 26 Jun 2013 10:05:30 GMT
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 26 Jun 2013 10:05:32 GMT
+- request:
+    method: get
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/1a86c64a-de47-11e2-9d40-99bae95472e7?queryType=org:opencrx:kernel:account1:LegalEntity
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/xml
+      Content-Type:
+      - text/xml;charset=UTF-8
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 UTC
+      Set-Cookie:
+      - JSESSIONID=BDF96FBD8624064B4C7F4B23468DC2BC; Path=/opencrx-rest-CRX/; HttpOnly
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Wed, 26 Jun 2013 10:05:30 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<org.openmdx.kernel.Exception>\n\t<element
+        exceptionDomain=\"DefaultDomain\" exceptionCode=\"-34\" exceptionTime=\"2013-06-26T10:05:31.668Z\"
+        exceptionClass=\"javax.resource.ResourceException\" methodName=\"execute\"
+        lineNumber=\"897\">\n\t\t<description/>\n\t\t<parameter/>\n\t\t<stackTraceElements>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.application.rest.adapter.InboundConnection_2$InboundInteraction\"
+        methodName=\"execute\" fileName=\"InboundConnection_2.java\" lineNumber=\"897\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.rest.spi.AbstractRestInteraction\" methodName=\"execute\"
+        fileName=\"AbstractRestInteraction.java\" lineNumber=\"610\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.application.rest.adapter.InboundConnection_2$InboundInteraction\"
+        methodName=\"execute\" fileName=\"InboundConnection_2.java\" lineNumber=\"894\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.rest.spi.AbstractRestInteraction\" methodName=\"execute\"
+        fileName=\"AbstractRestInteraction.java\" lineNumber=\"676\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.application.rest.http.servlet.RestServlet_2\"
+        methodName=\"doGet\" fileName=\"RestServlet_2.java\" lineNumber=\"768\"/>\n\t\t\t<_item
+        declaringClass=\"javax.servlet.http.HttpServlet\" methodName=\"service\" fileName=\"HttpServlet.java\"
+        lineNumber=\"621\"/>\n\t\t\t<_item declaringClass=\"javax.servlet.http.HttpServlet\"
+        methodName=\"service\" fileName=\"HttpServlet.java\" lineNumber=\"728\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.catalina.core.ApplicationFilterChain\" methodName=\"internalDoFilter\"
+        fileName=\"ApplicationFilterChain.java\" lineNumber=\"305\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.catalina.core.ApplicationFilterChain\" methodName=\"doFilter\"
+        fileName=\"ApplicationFilterChain.java\" lineNumber=\"210\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.catalina.core.StandardWrapperValve\" methodName=\"invoke\"
+        fileName=\"StandardWrapperValve.java\" lineNumber=\"222\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.catalina.core.StandardContextValve\" methodName=\"invoke\"
+        fileName=\"StandardContextValve.java\" lineNumber=\"123\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.tomee.catalina.OpenEJBValve\" methodName=\"invoke\"
+        fileName=\"OpenEJBValve.java\" lineNumber=\"45\"/>\n\t\t\t<_item declaringClass=\"org.apache.catalina.authenticator.AuthenticatorBase\"
+        methodName=\"invoke\" fileName=\"AuthenticatorBase.java\" lineNumber=\"581\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.catalina.core.StandardHostValve\" methodName=\"invoke\"
+        fileName=\"StandardHostValve.java\" lineNumber=\"171\"/>\n\t\t\t<_item declaringClass=\"org.apache.catalina.valves.ErrorReportValve\"
+        methodName=\"invoke\" fileName=\"ErrorReportValve.java\" lineNumber=\"99\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.catalina.valves.AccessLogValve\" methodName=\"invoke\"
+        fileName=\"AccessLogValve.java\" lineNumber=\"947\"/>\n\t\t\t<_item declaringClass=\"org.apache.catalina.core.StandardEngineValve\"
+        methodName=\"invoke\" fileName=\"StandardEngineValve.java\" lineNumber=\"118\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.catalina.connector.CoyoteAdapter\" methodName=\"service\"
+        fileName=\"CoyoteAdapter.java\" lineNumber=\"408\"/>\n\t\t\t<_item declaringClass=\"org.apache.coyote.http11.AbstractHttp11Processor\"
+        methodName=\"process\" fileName=\"AbstractHttp11Processor.java\" lineNumber=\"1009\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.coyote.AbstractProtocol$AbstractConnectionHandler\"
+        methodName=\"process\" fileName=\"AbstractProtocol.java\" lineNumber=\"589\"/>\n\t\t\t<_item
+        declaringClass=\"org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor\"
+        methodName=\"run\" fileName=\"JIoEndpoint.java\" lineNumber=\"310\"/>\n\t\t\t<_item
+        declaringClass=\"java.util.concurrent.ThreadPoolExecutor\" methodName=\"runWorker\"
+        fileName=\"ThreadPoolExecutor.java\" lineNumber=\"1146\"/>\n\t\t\t<_item declaringClass=\"java.util.concurrent.ThreadPoolExecutor$Worker\"
+        methodName=\"run\" fileName=\"ThreadPoolExecutor.java\" lineNumber=\"615\"/>\n\t\t\t<_item
+        declaringClass=\"java.lang.Thread\" methodName=\"run\" fileName=\"Thread.java\"
+        lineNumber=\"679\"/>\n\t\t</stackTraceElements>\n\t</element>\n\t<element
+        exceptionDomain=\"DefaultDomain\" exceptionCode=\"-34\" exceptionTime=\"2013-06-26T10:05:31.668Z\"
+        exceptionClass=\"org.openmdx.base.exception.ServiceException\" methodName=\"getInaccessibilityReason\"
+        lineNumber=\"2393\">\n\t\t<description><![CDATA[No object found with the given
+        id]]></description>\n\t\t<parameter>\n\t\t\t<_item id=\"object\"><![CDATA[[1a41a479-de47-11e2-9d40-99bae95472e7,
+        xri://@openmdx*org.opencrx.kernel.account1/provider/CRX/segment/Standard/account/1a86c64a-de47-11e2-9d40-99bae95472e7]]]></_item>\n\t\t</parameter>\n\t\t<stackTraceElements
+        more=\"23\">\n\t\t\t<_item declaringClass=\"org.openmdx.base.accessor.rest.DataObject_1\"
+        methodName=\"getInaccessibilityReason\" fileName=\"DataObject_1.java\" lineNumber=\"2393\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.rest.DataObject_1\" methodName=\"unconditionalLoad\"
+        fileName=\"DataObject_1.java\" lineNumber=\"860\"/>\n\t\t\t<_item declaringClass=\"org.openmdx.base.accessor.rest.DataObject_1\"
+        methodName=\"objRetrieve\" fileName=\"DataObject_1.java\" lineNumber=\"2444\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.rest.DataObject_1\" methodName=\"objGetClass\"
+        fileName=\"DataObject_1.java\" lineNumber=\"677\"/>\n\t\t\t<_item declaringClass=\"org.openmdx.base.aop1.PlugIn_1\"
+        methodName=\"getInterceptor\" fileName=\"PlugIn_1.java\" lineNumber=\"132\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.view.ObjectView_1\" methodName=\"initialize\"
+        fileName=\"ObjectView_1.java\" lineNumber=\"431\"/>\n\t\t\t<_item declaringClass=\"org.openmdx.base.accessor.view.ObjectView_1\"
+        methodName=\"getDelegate\" fileName=\"ObjectView_1.java\" lineNumber=\"446\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.view.ObjectView_1\" methodName=\"getDelegate\"
+        fileName=\"ObjectView_1.java\" lineNumber=\"85\"/>\n\t\t\t<_item declaringClass=\"org.openmdx.base.accessor.spi.DelegatingObject_1\"
+        methodName=\"objGetClass\" fileName=\"DelegatingObject_1.java\" lineNumber=\"212\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.jmi.spi.RefRootPackage_1\" methodName=\"marshal\"
+        fileName=\"RefRootPackage_1.java\" lineNumber=\"444\"/>\n\t\t\t<_item declaringClass=\"org.openmdx.base.accessor.jmi.spi.RefRootPackage_1\"
+        methodName=\"refObject\" fileName=\"RefRootPackage_1.java\" lineNumber=\"501\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.jmi.spi.RefRootPackage_1$StandardPersistenceManager_1\"
+        methodName=\"getObjectById\" fileName=\"RefRootPackage_1.java\" lineNumber=\"1650\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.jmi.spi.RefRootPackage_1\" methodName=\"refObject\"
+        fileName=\"RefRootPackage_1.java\" lineNumber=\"501\"/>\n\t\t\t<_item declaringClass=\"org.openmdx.base.accessor.jmi.spi.RefRootPackage_1$StandardPersistenceManager_1\"
+        methodName=\"getObjectById\" fileName=\"RefRootPackage_1.java\" lineNumber=\"1650\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.jmi.spi.RefRootPackage_1\" methodName=\"refObject\"
+        fileName=\"RefRootPackage_1.java\" lineNumber=\"501\"/>\n\t\t\t<_item declaringClass=\"org.openmdx.base.accessor.jmi.spi.RefRootPackage_1$StandardPersistenceManager_1\"
+        methodName=\"getObjectById\" fileName=\"RefRootPackage_1.java\" lineNumber=\"1650\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.accessor.jmi.spi.RefRootPackage_1$StandardPersistenceManager_1\"
+        methodName=\"getObjectById\" fileName=\"RefRootPackage_1.java\" lineNumber=\"1707\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.application.rest.adapter.InboundConnection_2\"
+        methodName=\"getObjectByResourceIdentifier\" fileName=\"InboundConnection_2.java\"
+        lineNumber=\"207\"/>\n\t\t\t<_item declaringClass=\"org.openmdx.application.rest.adapter.InboundConnection_2$InboundInteraction\"
+        methodName=\"get\" fileName=\"InboundConnection_2.java\" lineNumber=\"972\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.base.rest.spi.AbstractRestInteraction\" methodName=\"execute\"
+        fileName=\"AbstractRestInteraction.java\" lineNumber=\"486\"/>\n\t\t\t<_item
+        declaringClass=\"org.openmdx.application.rest.adapter.InboundConnection_2$InboundInteraction\"
+        methodName=\"execute\" fileName=\"InboundConnection_2.java\" lineNumber=\"894\"/>\n\t\t</stackTraceElements>\n\t</element>\n</org.openmdx.kernel.Exception>"
+    http_version: 
+  recorded_at: Wed, 26 Jun 2013 10:05:32 GMT
+recorded_with: VCR 2.5.0

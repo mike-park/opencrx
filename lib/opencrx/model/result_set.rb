@@ -14,7 +14,11 @@ module Opencrx
       end
 
       def more?
-        response[KEY]['hasMore']
+        response[KEY]['hasMore'] == 'true'
+      end
+
+      def total
+        response[KEY]['total']
       end
 
       def results

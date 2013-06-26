@@ -77,69 +77,108 @@ EOF
 
   context Opencrx::Model::LegalEntity do
 
-    context "create, find, update" do
+    context "create, find, update & delete" do
       let(:name) { "AA äöëïöü" }
-
-      it "should create with umlauts" do
-        VCR.use_cassette('legal_entity/name', vcr_options) do
-          le = Opencrx::Model::LegalEntity.new(name: name)
-          le = le.save
-          expect(le.name).to eq(name)
-        end
-      end
+      let(:legal_entity) { Opencrx::Model::LegalEntity.new(name: name) }
 
       def query_for_name(name)
         options = {query: "thereExistsFullName().equalTo(\"#{name}\")"}
         Opencrx::Model::LegalEntity.query(options)
       end
 
+      it "should create with umlauts" do
+        VCR.use_cassette('legal_entity/name', vcr_options) do
+          expect(legal_entity.identity).to_not be
+
+          expect(legal_entity.save).to eq(true)
+          expect(legal_entity.name).to eq(name)
+          expect(legal_entity.identity).to be
+          legal_entity.destroy
+        end
+      end
+
+      it "should delete name" do
+        VCR.use_cassette('legal_entity/delete', vcr_options) do
+          expect(legal_entity.save).to eq(true)
+          expect(legal_entity.destroy).to eq(true)
+          expect {Opencrx::Model::LegalEntity.get(legal_entity.href)}.to raise_error(Opencrx::HttpError, /404 Not Found/)
+        end
+      end
+
       it "should find name" do
         VCR.use_cassette('legal_entity/find', vcr_options) do
+          result_set = query_for_name(name)
+          result_set.each(&:destroy)
+
+          legal_entity.save
           result_set = query_for_name(name)
           expect(result_set.length).to eq(1)
           le = result_set.first
           expect(le.name).to eq(name)
+          le.destroy
         end
       end
 
       it "should update name" do
         VCR.use_cassette('legal_entity/update', vcr_options) do
-          le = query_for_name(name).first
-          expect(le.name).to eq(name)
+          legal_entity.save
+          expect(legal_entity.name).to eq(name)
+          original_modifiedAt = legal_entity.modifiedAt
           new_name = 'AA More reasonable'
-          le.name = new_name
-          le = le.save
-          expect(le.name).to eq(new_name)
+          legal_entity.name = new_name
+          expect(legal_entity.save).to eq(true)
+          expect(legal_entity.name).to eq(new_name)
+          expect(legal_entity.modifiedAt).to_not eq(original_modifiedAt)
+          legal_entity.destroy
         end
       end
     end
 
     context "addresses" do
       let(:name) { "AA With Address" }
-      let(:legal_entity) { Opencrx::Model::LegalEntity.new(name: name).save }
+      let(:legal_entity) { Opencrx::Model::LegalEntity.new(name: name) }
       let(:address_hash) { {postalCity: 'Gütersloh', postalCode: '33330'} }
 
       it "should create with address" do
         VCR.use_cassette('legal_entity/address_create', vcr_options) do
+          expect(legal_entity.save).to eq(true)
           address = Opencrx::Model::PostalAddress.new(address_hash)
           address.assign_to(legal_entity)
-          address = address.save
+          expect(address.save).to eq(true)
           expect(address.href).to match(legal_entity.href)
           expect(address.postalCity).to eq(address_hash[:postalCity])
           expect(address.postalCode).to eq(address_hash[:postalCode])
           addresses = legal_entity.addresses
           expect(addresses.length).to eq(1)
           expect(addresses.first.postalCode).to eq(address_hash[:postalCode])
+          legal_entity.destroy
         end
       end
     end
 
     context Opencrx::Model::Account do
       it "should query many accounts" do
-        VCR.use_cassette('accounts', vcr_options) do
-          result_set = Opencrx::Model::Account.query(size: 100)
+        VCR.use_cassette('accounts/10', vcr_options) do
+          result_set = Opencrx::Model::Account.query(size: 10)
           puts "#{result_set.length} accounts found"
-          expect(result_set.length).to have_at_most(100).items
+          expect(result_set.length).to have_at_most(10).items
+        end
+      end
+
+      it "should query all accounts" do
+        VCR.use_cassette('accounts/all', vcr_options) do
+          #Opencrx::logger.level = Logger::DEBUG
+          position = 0
+          size = 500
+          total = 0
+          begin
+            result_set = Opencrx::Model::Account.query(position: position, size: size)
+            total += result_set.length
+            position += size
+            puts "#{position}: #{result_set.length}: #{total}"
+          end while result_set.more?
+          puts "#{total} accounts"
+          expect(total).to have_at_least(1).items
         end
       end
     end

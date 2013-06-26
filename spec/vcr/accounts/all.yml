@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account
+    uri: http://guest:guest@localhost:8080/opencrx-rest-CRX/org.opencrx.kernel.account1/provider/CRX/segment/Standard/account?position=0&size=500
     body:
       encoding: US-ASCII
       string: ''
@@ -23,13 +23,13 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 UTC
       Set-Cookie:
-      - JSESSIONID=108113D64A78D9F98554A8581CD89135; Path=/opencrx-rest-CRX/; HttpOnly
+      - JSESSIONID=0EF00A0F92174EF7AEC5FB924060F0F0; Path=/opencrx-rest-CRX/; HttpOnly
       Content-Type:
       - text/xml;charset=UTF-8
       Transfer-Encoding:
       - chunked
       Date:
-      - Wed, 26 Jun 2013 10:05:29 GMT
+      - Wed, 26 Jun 2013 10:05:33 GMT
     body:
       encoding: UTF-8
       string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<org.openmdx.kernel.ResultSet
@@ -55,5 +55,5 @@ http_interactions:
         href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.Group\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/guest.Group</_item>\n\t\t</owningGroup>\n\t\t<userString0/>\n\t\t<userDateTime4/>\n\t\t<extBoolean9/>\n\t\t<extCode12/>\n\t\t<vcard><![CDATA[BEGIN:VCARD\nVERSION:2.1\nUID:guest~Private\nREV:20100331T161817Z\nN:guest~Private\nFN:guest~Private\nEND:VCARD\n]]></vcard>\n\t\t<extDate1/>\n\t\t<extString5/>\n\t\t<extString9/>\n\t\t<accountRating>0</accountRating>\n\t\t<extNumber0/>\n\t\t<extDate5/>\n\t\t<extString0/>\n\t\t<extNumber4/>\n\t\t<owner>\n\t\t\t<_item><![CDATA[Standard:admin-Standard.User]]></_item>\n\t\t\t<_item><![CDATA[Standard:guest.Group]]></_item>\n\t\t</owner>\n\t\t<extBoolean2/>\n\t\t<extCode13/>\n\t\t<name><![CDATA[guest~Private]]></name>\n\t\t<userDateTime0/>\n\t\t<extString4/>\n\t\t<extBoolean6/>\n\t\t<extCode28/>\n\t\t<userBoolean4/>\n\t\t<userDate3/>\n\t\t<extCode8/>\n\t\t<extCode26/>\n\t\t<aliasName/>\n\t\t<userNumber2/>\n\t\t<extNumber7/>\n\t\t<extDateTime0/>\n\t\t<category/>\n\t\t<extNumber8/>\n\t\t<extCode1/>\n\t\t<pictureContent/>\n\t\t<extNumber2/>\n\t\t<userBoolean2/>\n\t\t<extCode2/>\n\t\t<extDate6/>\n\t\t<userCode1/>\n\t\t<modifiedBy>\n\t\t\t<_item><![CDATA[admin-Standard]]></_item>\n\t\t</modifiedBy>\n\t\t<externalLink>\n\t\t\t<_item><![CDATA[VCARD:guest~Private]]></_item>\n\t\t</externalLink>\n\t\t<extDate3/>\n\t\t<extCode24/>\n\t\t<extDateTime9/>\n\t\t<userDateTime2/>\n\t\t<extCode19/>\n\t\t<extBoolean0/>\n\t\t<accessLevelBrowse>3</accessLevelBrowse>\n\t\t<extCode10/>\n\t\t<disabled/>\n\t\t<owningUser
         href=\"http://localhost:8080/opencrx-rest-CRX/org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User\">xri://@openmdx*org.openmdx.security.realm1/provider/CRX/segment/Root/realm/Standard/principal/admin-Standard.User</owningUser>\n\t\t<userString3/>\n\t\t<userDate1/>\n\t\t<extDate2/>\n\t\t<extCode18/>\n\t\t<extDateTime8/>\n\t\t<partner/>\n\t\t<createdBy>\n\t\t\t<_item><![CDATA[admin-Standard]]></_item>\n\t\t</createdBy>\n\t\t<extString2/>\n\t\t<extCode15/>\n\t\t<accountCategory/>\n\t\t<businessType/>\n\t\t<extCode22/>\n\t\t<extString7/>\n\t\t<extNumber3/>\n\t\t<extNumber5/>\n\t\t<extCode23/>\n\t\t<extBoolean7/>\n\t</org.opencrx.kernel.account1.Group>\n</org.openmdx.kernel.ResultSet>"
     http_version: 
-  recorded_at: Wed, 26 Jun 2013 10:05:30 GMT
+  recorded_at: Wed, 26 Jun 2013 10:05:35 GMT
 recorded_with: VCR 2.5.0
